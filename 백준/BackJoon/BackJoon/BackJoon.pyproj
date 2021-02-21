@@ -1,0 +1,1073 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>BFS\텔레포트정거장.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>BackJoon</Name>
+    <RootNamespace>BackJoon</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BFS\DSLR%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\PuyoPuyo%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\경쟁적전염%28시간차 전염 외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\그림.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\데스나이트.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\돌다리.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\맥주마시면서걸어가기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\물통%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\보물섬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\봄버맨%28질문%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\상범빌딩%283차원외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\숨바꼭질%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\숨바꼭질2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\숨바꼭질3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\스타트링크%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\아기상어2%28문제이해x%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\알파벳.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\양.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\양치기꿍.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\연구소2%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\연구소3%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\음식물피하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\이모티콘%28질문%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\인구이동%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\전쟁-전투.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\점프게임%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\치즈.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\침투.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\텔레포트정거장.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\특정거리의도시찾기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\회장뽑기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS와 BFS\이분그래프%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KOI1996\중등부\연속부분최대곱.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KOI1996\초등부\숫자고르기%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KOI1996\초등부\직사각형네개의합집합의면적구하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KOI1997\초등부\직각이등변삼각형찾기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="골드문제들\감소하는수%28질문%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="골드문제들\램프%28답봄%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="골드문제들\리모컨%28답봄_외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="골드문제들\말이되고픈원숭이%28답봄_외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\개미.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\경비원%28버리기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\괄호의값%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\수이어쓰기2%28질문%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\트럭.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\후보추천하기%28질문, dict외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\경로찾기%28플로이드와샬%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\순열사이클.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\친구%28플로이드%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\5차전직.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\AB%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Byte Coin.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\센서.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\카드정렬하기%28꼭외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Yonsei TOTO.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\뒤집기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\박떠트리기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\안정적인문자열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\오셀로재배.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\우리집엔도서관이있어.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\최고의피자.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\카드문자열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\팔.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\풍선맞추기%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\피보나치%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\행복유치원.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\01타일.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\LCS%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\신나는함수실행.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법2\동전1%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법2\파일합치기%28꼭외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N_Queen.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N_과_M_01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N과M_02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N과M_03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N과M_04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\스도쿠%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\스타트와링크.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\연산자_끼워넣기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\결혼식.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\나이트이동.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\아기상어%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\연결요소의개수%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\연구소%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\케빈베이컨의6단계법칙.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\탈출%28중요함%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="브루트포스\부등호%28백트래킹%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="브루트포스\부분수열의합.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="브루트포스\차이를최대로%28조합,순열공부%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="브루트포스\팰린드롬만들기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학1\큰수A+B.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\다리놓기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\최소공배수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\TGN.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\과제안내신분.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\다음수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\배수찾기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\좋은놈나쁜놈.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\주차의신.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\줄번호.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\첫글자를대문자로.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\탄산음료.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="스택\오큰수%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="시뮬레이션\킹%28머가틀렸지%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="시뮬레이션\톱니바퀴%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="시뮬레이션\후보추천하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="움직임라이브러리.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\최소비용구하기%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="카카오코드페스티벌2018\승부예측.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="카카오코드페스티벌2018예선\상금헌터.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="카카오코드페스티벌2018예선\인형들.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="투포인터\냅색문제%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="투포인터\두수의합%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="투포인터\두용액.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="투포인터\부분합.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="투포인터\소수의연속합.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="트리\이진검색트리.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="트리\트리순회.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="트리\트리의부모찾기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BFS\효율적인해킹.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="우선순위큐\가운데를말해요.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="우선순위큐\절댓값힙.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="우선순위큐\최대힙.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="우선순위큐\최소힙.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="이분탐색\K번째수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="이분탐색\가장긴증가하는부분수열2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="이분탐색\공유기설치%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="이분탐색\나무자르기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="이분탐색\랜선자르기%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="이분탐색\수찾기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="이분탐색\숫자카드2%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS\섬의개수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS\숫자판점프.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS\안전영역.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS\영역구하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS\적록색약.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS\촌수계산.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS\트리.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS와 BFS\DFS와BFS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS와 BFS\단지번호붙이기%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS와 BFS\미로탐색%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS와 BFS\바이러스.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS와 BFS\벽부수고이동하기%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS와 BFS\숨바꼭질.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS와 BFS\유기농배추.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS와 BFS\토마토1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DFS와 BFS\토마토2%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\KCMTravel%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\미확인도착지.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\운동.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\타임머신%28다시_벨만포드보기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\특정한최단경로.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\플로이드.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="분할정복\곱셈.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="분할정복\색종이만들기%28%29다시.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="분할정복\종이의개수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="분할정복\쿼드트리%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="분할정복\행렬곱셈.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\01타일.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\단어공부.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\단어의개수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\상수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\다이얼.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\크로아티아알파벳.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\그룹단어체커.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학1\손익분기점.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학1\설탕배달.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학1\벌집.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학1\분수찾기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학1\달팽이는올라가고싶다.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학1\ACM호텔.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학1\부녀회장이될테야.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학1\Fly me to the Alpha Centauri.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학2\소수찾기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학2\소수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학2\소수구하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학2\베르트랑공준.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학2\골드바흐의추측.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학2\직사각형에서탈출.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학2\네번째점.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학2\직각삼각형.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학2\택시기하학.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학2\터렛.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="재귀\팩토리얼.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="재귀\피보나치수5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="재귀\별찍기10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="재귀\하노이탑이동순서.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="브루트포스\단계별\블랙잭.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="브루트포스\단계별\분해합.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="브루트포스\단계별\덩치.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="브루트포스\단계별\체스판다시칠하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="브루트포스\단계별\영화감독.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="정렬\수정렬하기1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="정렬\수정렬하기2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="정렬\수정렬하기3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="정렬\통계학.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="정렬\소트인사이드.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="정렬\좌표정렬하기1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="정렬\좌표정렬하기2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="정렬\단어정렬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="정렬\나이순정렬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\FBI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\R2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\가위바위보.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\검증수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\나는요리사다.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\나는친구가적다%28이거부터풀기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\나머지와몫이같은수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\가장 많은 글자_%28입력%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\공.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\나무조각.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\대소문자바꾸기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\도비의영어공부.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\막대기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\문어숫자.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\사파리월드.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\ABC.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\스네이크버드.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\시그마.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\오르막길%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\유학금지.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\윷놀이.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\일곱난쟁이.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\점수계산.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\주사위게임.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\주사위네개.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\최댓값.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\학점계산.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\함정문제.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\홀수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\2+1세일.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\ATM.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\강의실배정%28꼭 다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\박스채우기%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\줄세우기%28문제랑 답 외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\택배%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\거스름돈.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\거스름돈2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\걷기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\게임을만든동준이.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\깊콘이넘쳐흘러.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\단어수학.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\동전0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\도서관.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\라면사기%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\로프.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\배.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\병든나이트.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\수리공항승%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\수묶기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\신입사원.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\알바생강호.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\우유축제.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\잃어버린괄호.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\저울.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\전구와스위치%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\전자레인지.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\주사위.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\주식%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\주유소.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\카드합체놀이.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\캠핑.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\컵홀더.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\크게 만들기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\통나무건너뛰기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\폴리오미노.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\한줄로서기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\행렬%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\회문.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\회의실배정.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\검문%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\링.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\배수와약수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\소인수분해.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\약수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\이항계수12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\조합0의개수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\최대공약수최소공배수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\패션왕신해빈.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\팩토리얼0의개수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="practice.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\모음의개수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\새.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\추론.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\팰린드롬수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="큐와덱\AC.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="큐와덱\덱.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="큐와덱\요세푸스문제.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="큐와덱\카드2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="큐와덱\큐2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="큐와덱\프린터큐.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="큐와덱\회전하는큐.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="스택\괄호.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="스택\균형잡힌세상.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="스택\스택.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="스택\스택수열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="스택\제로.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\1로만들기_다시.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\2xn타일링.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\2xn타일링2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\가장긴바이토닉부분수열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\연속합%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\RGB거리%28질문%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\가장긴증가하는부분수열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\계단오르기%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\쉬운계단수%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\전깃줄.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\정수삼각형.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\타일 채우기%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\파도반수열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\평범한배낭%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\포도주시식%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\피보나치수열2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\피보나치수열_오.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="동적계획법1\피보나치수열_정.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\Cubeditor%28가장중요%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\가르침%28dfs풀때 같이%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\듣보잡.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\문자열폭발.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\부분문자열%28가장중요%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\소수와팰린드롬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\잠수함식별%28정규식사용%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\전화번호목록.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\제로.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\찾기%28나중에 풀기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열알고리즘\팰린드롬%28dp풀떄 같이%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\최단경로.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="트리\트리의순회%28질문%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="트리\트리의지름%28다시외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="트리\트리의지름2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="유니온파인드\여행가자.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="유니온파인드\집합의표현%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="유니온파인드\친구네트워크.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="KOI1996\" />
+    <Folder Include="KOI1996\중등부\" />
+    <Folder Include="KOI1996\초등부\" />
+    <Folder Include="KOI1997\" />
+    <Folder Include="KOI1997\초등부\" />
+    <Folder Include="그래프\" />
+    <Folder Include="구현\" />
+    <Folder Include="브루트포스\단계별\" />
+    <Folder Include="시뮬레이션\" />
+    <Folder Include="투포인터\" />
+    <Folder Include="카카오코드페스티벌2018\" />
+    <Folder Include="카카오코드페스티벌2018예선\" />
+    <Folder Include="골드문제들\" />
+    <Folder Include="쉬운문제들\" />
+    <Folder Include="문자열\" />
+    <Folder Include="수학1\" />
+    <Folder Include="수학2\" />
+    <Folder Include="재귀\" />
+    <Folder Include="브루트포스\" />
+    <Folder Include="정렬\" />
+    <Folder Include="백트래킹\" />
+    <Folder Include="그리디알고리즘\" />
+    <Folder Include="그리디알고리즘\Gold\" />
+    <Folder Include="수학3\" />
+    <Folder Include="분할정복\" />
+    <Folder Include="이분탐색\" />
+    <Folder Include="우선순위큐\" />
+    <Folder Include="동적계획법2\" />
+    <Folder Include="DFS와 BFS\" />
+    <Folder Include="BFS\" />
+    <Folder Include="DFS\" />
+    <Folder Include="최단경로\" />
+    <Folder Include="유니온파인드\" />
+    <Folder Include="트리\" />
+    <Folder Include="문자열알고리즘\" />
+    <Folder Include="큐와덱\" />
+    <Folder Include="스택\" />
+    <Folder Include="동적계획법1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
