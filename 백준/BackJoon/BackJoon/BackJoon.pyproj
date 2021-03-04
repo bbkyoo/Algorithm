@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BFS\텔레포트정거장.py</StartupFile>
+    <StartupFile>구현\비슷한단어(다시).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -141,6 +141,9 @@
     <Compile Include="골드문제들\말이되고픈원숭이%28답봄_외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\Base Conversion%28진법공부%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\개미.py">
       <SubType>Code</SubType>
     </Compile>
@@ -150,10 +153,40 @@
     <Compile Include="구현\괄호의값%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\날짜계산.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\반복수열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\방번호%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\비슷한단어%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\색종이.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\생일.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\수이어쓰기2%28질문%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\쉽게푸는문제.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\에라토스테네스의 체%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\참외밭.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\트럭.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\팰린드롬 만들기%28중요%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\후보추천하기%28질문, dict외우기%29.py">
@@ -177,10 +210,31 @@
     <Compile Include="그리디알고리즘\Byte Coin.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그리디알고리즘\Gold\A와B.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\ppap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\모독%28문제이해%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그리디알고리즘\Gold\센서.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그리디알고리즘\Gold\소트%28버블정렬%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\순회강연.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\아우으 우아으이야.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그리디알고리즘\Gold\카드정렬하기%28꼭외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\토너먼트만들기.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그리디알고리즘\Yonsei TOTO.py">
@@ -720,7 +774,7 @@
     <Compile Include="그리디알고리즘\Gold\강의실배정%28꼭 다시%29.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="그리디알고리즘\Gold\박스채우기%28못품%29.py">
+    <Compile Include="그리디알고리즘\Gold\박스채우기%28질문%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그리디알고리즘\Gold\줄세우기%28문제랑 답 외우기%29.py">
@@ -744,7 +798,7 @@
     <Compile Include="그리디알고리즘\깊콘이넘쳐흘러.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="그리디알고리즘\Gold\단어수학.py">
+    <Compile Include="그리디알고리즘\Gold\단어수학%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그리디알고리즘\동전0.py">

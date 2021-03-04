@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Level2\뉴스클러스팅.py</StartupFile>
+    <StartupFile>2019카카오개발자겨울인턴쉽\불량사용자.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,8 +23,16 @@
   <ItemGroup>
     <Folder Include="Level1\" />
     <Folder Include="Level2\" />
+    <Folder Include="2017팁스다운\" />
+    <Folder Include="2019카카오개발자겨울인턴쉽\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2017팁스다운\단어퍼즐.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2019카카오개발자겨울인턴쉽\불량사용자.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level1\2016.py">
       <SubType>Code</SubType>
     </Compile>
@@ -89,6 +97,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level1\시저암호.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level1\신규 아이디 추천.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level1\실패율.py">
@@ -163,6 +174,9 @@
     <Compile Include="Level2\JadenCase문자열만들기.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level2\n진수게임%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level2\N최공%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -205,6 +219,9 @@
     <Compile Include="Level2\문자열압축%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level2\방금그곡.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level2\삼각달팽이%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -226,10 +243,16 @@
     <Compile Include="Level2\스킬트리.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level2\압축%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level2\영어끝말잇기.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\예상대진표%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level2\오픈채팅방%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\올바른괄호%28외우기%29.py">
@@ -265,6 +288,9 @@
     <Compile Include="Level2\카펫.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level2\캐시%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level2\쿼드압축후개수세기.py">
       <SubType>Code</SubType>
     </Compile>
@@ -277,7 +303,13 @@
     <Compile Include="Level2\튜플%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level2\파일명정렬%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level2\폰켓몬%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level2\프렌즈4블록%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\프린터.py">
@@ -287,6 +319,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\행열의곱셈.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level2\후보키%28질문%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="practice.py">

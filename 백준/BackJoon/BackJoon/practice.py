@@ -1,22 +1,28 @@
-s = input()
+import sys
 
-number = ['0','1','2','3','4','5','6','7','8','9']
-num = []
-alhpa = []
-for i in range(len(s)):
-    if s[i] in number:
-        num.append(s[i])
-    else:
-        alhpa.append(s[i])
+input = sys.stdin.readline
 
-alhpa.sort()
+length, width, height = map(int, input().split())
+box = length * width * height
+n = int(input())
+max_count = 0
+cube = []
 
-sum = 0
-for i in range(len(num)):
-    sum += int(num[i])
-        
-result = ''
-for i in alhpa:
-    result += i
+for i in range(n):
+    a, b = map(int, input().split())
+    cube.append([(2**a)*(2**a)*(2**a) , b])
+    max_count += b
 
-print(result+str(sum))
+count = 0
+while box >= 0 and max_count and n:
+    n -= 1
+    while cube[n][1] and box >= cube[n][0]:
+        box -= cube[n][0]
+        cube[n][1] -= 1
+        max_count -= 1
+        count += 1
+           
+if box != 0:
+    print(-1)
+else:
+    print(count)
