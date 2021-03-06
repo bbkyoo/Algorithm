@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>구현\비슷한단어(다시).py</StartupFile>
+    <StartupFile>practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -156,6 +156,12 @@
     <Compile Include="구현\날짜계산.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\단어뒤집기2%28중요%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\마인크래프트.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\반복수열.py">
       <SubType>Code</SubType>
     </Compile>
@@ -171,13 +177,22 @@
     <Compile Include="구현\생일.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\수이어쓰기1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\수이어쓰기2%28질문%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\숫자정사각형.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\쉽게푸는문제.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\에라토스테네스의 체%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\연산자끼워넣기2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\참외밭.py">
