@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>2019카카오개발자겨울인턴쉽\불량사용자.py</StartupFile>
+    <StartupFile>practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

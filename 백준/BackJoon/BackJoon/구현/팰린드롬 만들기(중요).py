@@ -20,4 +20,3 @@ if odd > 1:
 # 홀수가 1개 이하이면 짝수 알파벳 + 홀수 알파벳 + 짝수 알파벳의 역순
 else:
     print(alpha + odd_alpha + alpha[::-1])
-

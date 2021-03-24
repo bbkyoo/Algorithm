@@ -1,7 +1,7 @@
 import sys
 input = sys.stdin.readline
 
-def find_squre(s):
+def find_squre(s): # 이 부분이 제일 중요
     for i in range(n-s+1):
         for j in range(m-s+1):
             if matrix[i][j] == matrix[i][j+s-1] == matrix[i+s-1][j] == matrix[i+s-1][j+s-1]:

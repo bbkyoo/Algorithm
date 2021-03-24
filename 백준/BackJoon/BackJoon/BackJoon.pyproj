@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>practice.py</StartupFile>
+    <StartupFile>구현\배열돌리기3(중요).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -129,6 +129,24 @@
     <Compile Include="KOI1997\초등부\직각이등변삼각형찾기.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="pt.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pt2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pt3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pt4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pt5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pt6.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="골드문제들\감소하는수%28질문%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -141,10 +159,25 @@
     <Compile Include="골드문제들\말이되고픈원숭이%28답봄_외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\3의배수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\8진수.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\Base Conversion%28진법공부%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\N번쨰큰수.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\개미.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\개미3048%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\거북이%28방향의기초%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\경비원%28버리기%29.py">
@@ -153,10 +186,22 @@
     <Compile Include="구현\괄호의값%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\기상캐스터.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\날짜계산.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\단어뒤집기2%28중요%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\달팽이%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\도로와신호등%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\로마숫자만들기%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\마인크래프트.py">
@@ -168,13 +213,40 @@
     <Compile Include="구현\방번호%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\배열돌리기1%28다시_외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\배열돌리기3%28중요%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\블라인드.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\비밀번호발음하기.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\비슷한단어%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\빈도정렬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\빙고%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\사탕게임%28깊은복사%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\색종이.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\색종이2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\생일.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\소가길을건너간이유1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\수이어쓰기1.py">
@@ -183,19 +255,67 @@
     <Compile Include="구현\수이어쓰기2%28질문%29.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="구현\숫자정사각형.py">
+    <Compile Include="구현\숫자 빈도수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\숫자게임.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\숫자정사각형%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\쉽게푸는문제.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\십자카드문제.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\에라토스테네스의 체%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\여우사인.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\연산자끼워넣기2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\오늘도 졌다.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\오목%28알고리즘외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\욱제는 결정장애야.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\이진수덧셈%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\인기투표.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\자리배정%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\절사평균.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\지구온난화.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\참외밭.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\카드게임.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\킹.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\톱니바퀴2%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\투명.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\트럭.py">
@@ -303,6 +423,9 @@
     <Compile Include="동적계획법2\파일합치기%28꼭외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="문자열\가르침%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="백트래킹\N_Queen.py">
       <SubType>Code</SubType>
     </Compile>
@@ -408,7 +531,7 @@
     <Compile Include="시뮬레이션\후보추천하기.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="움직임라이브러리.py">
+    <Compile Include="파이썬 스킬모음.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="최단경로\최소비용구하기%28다시%29.py">
@@ -930,7 +1053,7 @@
     <Compile Include="수학3\팩토리얼0의개수.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="practice.py">
+    <Compile Include="practice1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="쉬운문제들\모음의개수.py">
