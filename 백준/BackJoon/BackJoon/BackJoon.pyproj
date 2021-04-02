@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>구현\배열돌리기3(중요).py</StartupFile>
+    <StartupFile>pt2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -129,22 +129,13 @@
     <Compile Include="KOI1997\초등부\직각이등변삼각형찾기.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pt.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="pt2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pt3.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pt4.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="pt5.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="pt6.py">
+    <Compile Include="pyptpp.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="골드문제들\감소하는수%28질문%29.py">
@@ -169,6 +160,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\N번쨰큰수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\The candy war%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\개미.py">
@@ -199,6 +193,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\도로와신호등%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\도비의난독증테스트.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\로마숫자만들기%28다시%29.py">
@@ -247,6 +244,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\소가길을건너간이유1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\속도위반.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\수이어쓰기1.py">
@@ -423,7 +423,34 @@
     <Compile Include="동적계획법2\파일합치기%28꼭외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="문자열\30.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\IOIOI.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="문자열\가르침%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\나는야포켓폰마스터이다솜.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\문서검색.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\문자열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\문자열집합.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\백대열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\접미사 배열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="문자열\회사에있는사람.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\N_Queen.py">
@@ -1053,7 +1080,7 @@
     <Compile Include="수학3\팩토리얼0의개수.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="practice1.py">
+    <Compile Include="practice.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="쉬운문제들\모음의개수.py">

@@ -1,52 +1,20 @@
-def fivonach(n):    
-    a,b = 1, 1
-    if n == 1 or n == 2:
-        return 1
+# p 로봇, h 부품
+n, k = map(int, input().split())
+arr = list(input())
 
-    for i in range(1, n):
-        a, b = b, a+b
+for i in range(n):
+    isTrue = True
+    if arr[i] == 'P':
+        if 0 <= i-k and isTrue:
+            for j in range(i-k,i):
+                if arr[j] == 'H':
+                    arr[j] = 'C'
+                    isTrue = False
+                    break
+        if i+k < n and isTrue:
+            for j in range(i+1,i+1+k):
+                if arr[j] == 'H':
+                    arr[j] = 'C'
+                    break
 
-    return a
-
-n = int(input())
-length = list(map(int, input()))
-
-cnt = length.count(1)
-count = 1
-
-if cnt == len(length):
-    count = fivonach(n)
-    print(count)
-    
-else:
-    temp = 0
-    mul = []
-    for i in range(len(length)):
-        if length[i] == 1:
-            temp += 1
-        elif length[i] == 0:
-            mul.append(fivonach(temp))
-            temp = 0
-    mul.append(fivonach(temp))
-
-    for i in mul:
-        if i != 0:
-            count *= i
-           
-    print(count)
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(arr.count("C"))
