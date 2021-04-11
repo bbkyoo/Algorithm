@@ -1,27 +1,42 @@
-import re
-import sys
+from collections import deque
 
-input = sys.stdin.readline
+n = 6
+passenger = [1,1,2,3,4]
+passenger = [0] + passenger
+train = [[1,2],[1,3],[1,4],[1,5]]
 
-n = int(input())
+matrix = [[0]*(n+1) for _ in range(n+1)]
+visited = [0]*(n+1)
 
-s = []
-for _ in range(n):
-    s.append(input().rstrip())
+for i in range(len(train)):
+    matrix[train[i][0]][train[i][1]] = 1
+    matrix[train[i][1]][train[i][0]] = 1
 
-q = int(input())
+def bfs(v):
+    q = deque([v])
+    visited[v] = 1
+    
+    while q:
+        v = q.popleft()
+        
+        for i in range(1, n+1):
+            if visited[i] == 0 and matrix[v][i]:
+                q.append(i)
+                visited[i] = 1
+                passenger[i] += passenger[v] 
+                       
+bfs(1)
+mx = 0
+idx = 0
+for i in range(len(passenger)-1,-1,-1):
+    if passenger[i] > mx:
+        mx = passenger[i]
+        idx = i
 
-sch = []
-for _ in range(q):
-    sch.append(input().rstrip())
+print("[{},{}]".format(idx,mx))
 
-result = []
-for i in sch:
-    count = 0
-    for j in s:
-        if re.search(i, j):
-            count += 1
-    result.append(count)
 
-for i in result:
-    print(i)
+
+
+
+

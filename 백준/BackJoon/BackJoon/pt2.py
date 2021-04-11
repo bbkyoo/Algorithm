@@ -1,20 +1,28 @@
-# p 로봇, h 부품
-n, k = map(int, input().split())
-arr = list(input())
+needs = [ [ 1, 0, 0 ], [1, 1, 0], [1, 1, 0], [1, 0, 1], [1, 1, 0], [0, 1, 1] ]
+r = 2
 
-for i in range(n):
-    isTrue = True
-    if arr[i] == 'P':
-        if 0 <= i-k and isTrue:
-            for j in range(i-k,i):
-                if arr[j] == 'H':
-                    arr[j] = 'C'
+cnt = [0] * len(needs)  
+
+for i in range(len(needs)):
+    if needs[i].count(1) <= r:
+        idx = []
+        for j in range(len(needs[i])):
+            if needs[i][j] == 1:
+                idx.append(j)
+        
+        idx_t = []
+        for k in range(len(needs)):
+            for j in range(len(needs[k])):
+                if needs[k][j] == 1:
+                    idx_t.append(j)
+
+            isTrue = True
+            for t in idx_t:
+                if t not in idx:
                     isTrue = False
                     break
-        if i+k < n and isTrue:
-            for j in range(i+1,i+1+k):
-                if arr[j] == 'H':
-                    arr[j] = 'C'
-                    break
 
-print(arr.count("C"))
+            if isTrue:
+                cnt[i] += 1   
+                
+print(cnt)
