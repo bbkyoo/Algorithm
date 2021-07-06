@@ -1,44 +1,64 @@
+from itertools import combinations 
 from collections import deque
 import sys
 
 dx = [-1,1,0,0]
 dy = [0,0,-1,1]
 
-def bfs(x, y):
-    q = deque()
-    q.append([x, y])
-    visited[x][y] = 1
-    dist[x][y] = 1
-
-    while q:
-        x, y = q.popleft()
+def bfs():
+    while a:
+        x, y = a.popleft()
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
-            if 0 <= nx < n and 0 <= ny < n:
-                if visited[nx][ny] == 0 and site[nx][ny] == 0:
-                    visited[nx][ny] = 1
-                    q.append([nx, ny])
-                    dist[nx][ny] = dist[x][y] + 1 
+            if 0 <= nx < n and 0 <= ny < n and visit[nx][ny] == 0 and matrix[nx][ny] != 1:
+                visit[nx][ny] = 1
+                a.append([nx, ny])
+                cs[nx][ny] = cs[x][y] + 1
 
 n, m  = map(int ,input().split())
-site = [list(map(int, input().split())) for _ in range(n)]
-visited = [[0]*n for _ in range(n)]
-dist = [[0]*n for _ in range(n)]
+matrix = []
+q = []
+b = 0
+inf = sys.maxsize
+result = inf
 
 for i in range(n):
+    line = list(map(int, input().split()))
+    matrix.append(line)
     for j in range(n):
-        if site[i][j] == 2:
-            bfs(i,j)
+        if matrix[i][j] == 2:
+            q.append([i, j])
+        if matrix[i][j] != 1:
+            b += 1
 
-isTrue = True
-for i in range(n):
-    for j in range(n):
-        if site[i][j] == 0:
+cq = list(combinations(q, m))       
 
-            
+for i in cq:
+    cs = [[-1]*n for _ in range(n)]
+    visit = [[0]*n for _ in range(n)]
+    a = deque()
 
-        
+    for x, y in i:
+        visit[x][y] = 1
+        cs[x][y] = 0
+        a.append([x, y])
+
+    bfs()
+    cnt = 0
+
+    for j in visit:
+        cnt += j.count(1)
+
+    if b == cnt:
+        max_n = 0
+        for j in range(n):
+            for k in range(n):
+                if matrix[j][k] != 1 and [j, k] not in q:
+                    max_n = max(max_n, cs[j][k])
+        result = min(result, max_n)
+
+print(result if result != inf else -1)
 
 
 

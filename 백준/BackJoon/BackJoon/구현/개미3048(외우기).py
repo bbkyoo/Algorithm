@@ -15,4 +15,4 @@ for i in itertools.zip_longest(first, second, fillvalue=' '):
     i = ''.join(i).strip()
     if i:
         print(i, end='')
-
+    

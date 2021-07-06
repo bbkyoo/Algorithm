@@ -29,6 +29,7 @@ for i in range(m):
 count = 0
 bfs(1)
 
+# 1: 본인, 2: 친구, 3: 친구의 친구
 for i in range(2, n+1):
     if visited[i] < 4 and visited[i] != 0:
         count += 1

@@ -1,59 +1,48 @@
-# 왼손 시작은 *, 오른 손 시작은 #
-# 1, 4, 7 을 누를 때는 왼손
-# 3, 6, 9 를 누를 때는 오른손
-# 2,5,8,0 을 누를 때는 두 엄지손가락에서 더 가까운 거리에서 사용, 만약 거리가 같다면 손잡이의 방향을 보고 누른다.
+def solution(numbers, hand):  
+    keypad = [[1,2,3],[4,5,6],[7,8,9],['*',0,'#']]
+    result = []
+    current_l = '*'
+    current_r = '#'
 
-def solution(numbers, hand):
-    arr = [[1,2,3],[4,5,6],[7,8,9],['*',0,'#']]
-    answer = ''
-    left = [[3,0]]
-    right = [[3,2]]
-    k = 0
-    while k < len(numbers): 
-        for i in range(len(arr)):
-            for j in range(len(arr[i])):
-                if arr[i][j] == numbers[k]:
-                    if numbers[k] == 1 or numbers[k] == 4 or numbers[k] == 7:
-                        left.pop()
-                        left.append([i,j])
-                        answer += 'L'
-                    elif numbers[k] == 3 or numbers[k] == 6 or numbers[k] == 9:
-                        right.pop()
-                        right.append([i,j])
-                        answer += 'R'
-                    elif numbers[k] == 2 or numbers[k] == 5 or numbers[k] == 8 or numbers[k] == 0:
-                        if k == 0:
-                            if hand == "right":
-                                right.pop()
-                                right.append([i,j])
-                                answer += 'R'
-                            else:
-                                left.pop()
-                                left.append([i,j])
-                                answer += 'L'
-                        else:
-                            if (abs(i - left[0][0]) + abs(j - left[0][1])) < (abs(i - right[0][0]) + abs(j - right[0][1])):
-                                left.pop()
-                                left.append([i,j])
-                                answer += 'L'
-                            elif (abs(i - left[0][0]) + abs(j - left[0][1])) > (abs(i - right[0][0]) + abs(j - right[0][1])):
-                                right.pop()
-                                right.append([i,j])
-                                answer += 'R'
-                            else:
-                                if hand =="right":
-                                    right.pop()
-                                    right.append([i,j])
-                                    answer += 'R'
-                                else:
-                                    left.pop()
-                                    left.append([i,j])
-                                    answer += 'L'
-        k += 1
-    return answer
+    l_x, l_y = 0, 0
+    r_x, r_y = 0, 0
+    n_x, n_y = 0, 0
+    for i in range(len(numbers)):
+        if numbers[i] == 1 or numbers[i] == 4 or numbers[i] == 7:
+            result.append('L')
+            current_l = numbers[i]
+        elif numbers[i] == 3 or numbers[i] == 6 or numbers[i] == 9:
+            result.append('R')
+            current_r = numbers[i]
+        else:
+            for j in range(len(keypad)):
+                for k in range(len(keypad[j])):
 
+                    if keypad[j][k] == current_l:
+                        l_x, l_y = j, k
 
+                    elif keypad[j][k] == current_r:
+                        r_x, r_y = j, k
 
+                    if keypad[j][k] == numbers[i]:
+                        n_x, n_y = j, k
+
+            if abs(n_x - l_x) + abs(n_y - l_y) == abs(n_x - r_x) + abs(n_y - r_y):
+                if hand == 'right':
+                    result.append('R')
+                    current_r = numbers[i] 
+                else:
+                    result.append('L')
+                    current_l = numbers[i]
+
+            elif abs(n_x - l_x) + abs(n_y - l_y) > abs(n_x - r_x) + abs(n_y - r_y):
+                result.append('R')
+                current_r = numbers[i]
+            else:
+                result.append('L')
+                current_l = numbers[i]
+
+    return ''.join(result)
 
 
 

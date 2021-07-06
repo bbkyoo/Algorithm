@@ -1,10 +1,46 @@
-#네오가 기억한 멜로디와 악보에 사용되는 음은 C, C#, D, D#, E, F, F#, G, G#, A, A#, B 12개이다.
-#def solution(m, musicinfos):
-#    answer = ''
-#    return answer
-# 시작한 시각, 끝난 시각, 음악 제목, 악보 정보
+def change(melody):
+    if 'A#' in melody:
+        melody = melody.replace('A#','a')
+    if 'C#' in melody:
+        melody = melody.replace('C#','c')
+    if 'D#' in melody:
+        melody = melody.replace('D#','d')
+    if 'F#' in melody:
+        melody = melody.replace('F#','f')
+    if 'G#' in melody:
+        melody = melody.replace('G#','g')
 
-m = "ABCDEFG"
-musicinfos = ["12:00,12:14,HELLO,CDEFGAB", "13:00,13:05,WORLD,ABCDEF"]
+    return melody
 
-for i in range():
+def solution(m, musicinfos):
+    m = change(m)
+    answer = ('(None)', None)
+
+    for info in musicinfos:
+        start, end, title, melody = info.split(',')
+        start_h, start_m, end_h, end_m = map(int, start.split(':') + end.split(':')) # 이 부분 꼭 기억
+        time = 60*(end_h-start_h) + (end_m-start_m) # 이 부분 꼭 기억해두기
+        melody = change(melody)
+        melody_play = (melody*time)[:time]
+
+        if m in melody_play:
+            if (answer[1] == None) or (time > answer[1]):
+                answer = (title,time)
+
+    return answer[0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

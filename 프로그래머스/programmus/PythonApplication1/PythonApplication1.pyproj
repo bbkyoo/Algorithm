@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>practice.py</StartupFile>
+    <StartupFile>pt.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,12 +25,16 @@
     <Folder Include="Level2\" />
     <Folder Include="2017팁스다운\" />
     <Folder Include="2019카카오개발자겨울인턴쉽\" />
+    <Folder Include="Level3\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2017팁스다운\단어퍼즐.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="2019카카오개발자겨울인턴쉽\불량사용자.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="last.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level1\2016.py">
@@ -186,7 +190,13 @@
     <Compile Include="Level2\가장큰정사각형찾기%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level2\게임 맵 최단거리.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level2\괄호변환%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level2\괄호회전하기.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\구명보트.py">
@@ -222,6 +232,12 @@
     <Compile Include="Level2\방금그곡.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level2\방문길이.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level2\배달.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level2\삼각달팽이%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -231,7 +247,7 @@
     <Compile Include="Level2\소수찾기.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Level2\수식최대화%28아직못냄%29.py">
+    <Compile Include="Level2\수식최대화%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\순위검색.py">
@@ -321,10 +337,25 @@
     <Compile Include="Level2\행열의곱셈.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Level2\후보키%28질문%29.py">
+    <Compile Include="Level2\후보키%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\경주로 건설%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\보석쇼핑%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\불량사용자%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\징검다리 건너기%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="practice.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pt.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -27,3 +27,15 @@ for num in nums:  # 이 부분이 가장 중요 꼭 이 알고리즘을 외우�
         heapq.heappop(sums)
 
 print(sum(sums))
+
+
+
+
+
+
+
+
+
+
+
+

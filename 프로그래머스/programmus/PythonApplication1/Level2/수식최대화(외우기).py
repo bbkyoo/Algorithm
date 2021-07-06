@@ -2,7 +2,7 @@
 
 def calc(priority, n, expression):
     if n == 2:
-        return str(eval(expression))
+        return str(eval(expression)) # 문자열을 계산하여 반환
 
     if priority[n] == '*':
         res = eval('*'.join([calc(priority, n+1, e) for e in expression.split("*")]))
@@ -32,6 +32,12 @@ def solution(expression):
         answer = max(answer, abs(res))
 
     return answer
+
+
+
+
+
+
 
 
 

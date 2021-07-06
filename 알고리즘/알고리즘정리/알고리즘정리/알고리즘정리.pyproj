@@ -1,0 +1,111 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1661f561-2094-49d6-9838-a1d852b6110a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>자료구조\트리.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>알고리즘정리</Name>
+    <RootNamespace>알고리즘정리</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="practice.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\BFS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\DFS.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\공간복잡도.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\그리디.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\동적계획법과 분할정복.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\백트래킹.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\병합정렬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\순차탐색.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\이진탐색.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\최단경로.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\최소신장트리1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\최소신장트리2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\퀵정렬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="자료구조\링크드리스트.py" />
+    <Compile Include="자료구조\배열.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\버블정렬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\삽입정렬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\선택정렬.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="자료구조\스택.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="알고리즘\재귀.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="자료구조\큐.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="자료구조\트리.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="자료구조\해쉬테이블.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="자료구조\힙.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="알고리즘\" />
+    <Folder Include="자료구조\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

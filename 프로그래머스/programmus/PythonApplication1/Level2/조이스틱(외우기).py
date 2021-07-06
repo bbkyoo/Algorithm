@@ -1,5 +1,4 @@
 def solution(name):
-    
     name = list(name)
     answer = 0
     index = 0

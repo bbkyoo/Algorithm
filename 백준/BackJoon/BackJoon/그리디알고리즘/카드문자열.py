@@ -5,7 +5,7 @@ for _ in range(t):
     card = list(map(str, input().split()))
 
     q = [card[0]]
-
+    
     for i in range(1,len(card)):
         if q[0] >= card[i]:
             q.insert(0,card[i])

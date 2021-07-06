@@ -1,13 +1,50 @@
-#def solution(gift_cards, wants):
+def rotate(s, n):
+    return s[n:] + s[:n]
 
-#gift_cards = [5, 4, 5, 4, 5]  
-#wants = [1, 2, 3, 5, 4]
-#wants_temp = list(set(wants))
+def solution(s):
+    s = list(s)
+    answer = 0
+    for i in range(len(s)):
+        s1 = rotate(s, i)
+        isTrue = True
+        temp = []
+        for j in s1:
+            if temp:
+                top = temp[-1]
+                if top == '[':
+                    if j == ']': 
+                        temp.pop()
+                    elif j == '}' or j == ')':
+                        isTrue = False
+                        break
+                    else:
+                        temp.append(j)
 
-#count = 0
-#for i in range(len(wants_temp)):
-#    if wants.count(wants_temp[i]) - gift_cards.count(wants_temp[i]) >= 1:
-#        count += 1  
-        
-#print(count)
- 
+                elif top == '(':
+                    if j == ')': 
+                        temp.pop()
+                    elif j == ']' or j == '}':
+                        isTrue = False
+                        break
+                    else:
+                        temp.append(j)
+
+                elif top == '{':
+                    if j == '}': 
+                        temp.pop()
+                    elif j == ')' or j == ']':
+                        isTrue = False
+                        break
+                    else:
+                        temp.append(j)
+            else:
+                temp.append(j)
+
+        if temp:
+            continue
+        else:
+            if isTrue:
+                answer += 1
+
+    return answer
+

@@ -27,8 +27,6 @@ for _ in range(t):
        
     home_x , home_y = map(int, input().split())
 
-    matrix = []
-
     for _ in range(n):
         x, y = map(int, input().split())
         matrix.append([x, y])

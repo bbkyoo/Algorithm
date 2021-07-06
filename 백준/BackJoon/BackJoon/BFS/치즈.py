@@ -51,7 +51,6 @@ temp = left
 while left != 0:
     visited = [[0]*m for _ in range(n)]
     bfs(0, 0)
-
     if left != 0:
         temp = left
 
