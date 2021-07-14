@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1661f561-2094-49d6-9838-a1d852b6110a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>자료구조\트리.py</StartupFile>
+    <StartupFile>practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

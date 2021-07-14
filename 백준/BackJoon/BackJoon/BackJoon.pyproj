@@ -417,6 +417,9 @@
     <Compile Include="그래프\상근이의 여행.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\소수 경로%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\소트게임.py">
       <SubType>Code</SubType>
     </Compile>
@@ -718,6 +721,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="시뮬레이션\후보추천하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="이분탐색\이분탐색 기초.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="파이썬 스킬모음.py">

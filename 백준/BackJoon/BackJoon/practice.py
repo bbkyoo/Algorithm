@@ -1,50 +1,15 @@
-def rotate(s, n):
-    return s[n:] + s[:n]
+from bisect import bisect_left, bisect_right
+ 
+def count_by_range(a, left_value, right_value):
+    right_index = bisect_right(a,right_value)
+    left_index = bisect_left(a,left_value)
 
-def solution(s):
-    s = list(s)
-    answer = 0
-    for i in range(len(s)):
-        s1 = rotate(s, i)
-        isTrue = True
-        temp = []
-        for j in s1:
-            if temp:
-                top = temp[-1]
-                if top == '[':
-                    if j == ']': 
-                        temp.pop()
-                    elif j == '}' or j == ')':
-                        isTrue = False
-                        break
-                    else:
-                        temp.append(j)
+    if right_index - left_index <= 1:
+        return -1
+    else:
+        return right_index - left_index
 
-                elif top == '(':
-                    if j == ')': 
-                        temp.pop()
-                    elif j == ']' or j == '}':
-                        isTrue = False
-                        break
-                    else:
-                        temp.append(j)
+n, x = map(int, input().split())
+a = list(map(int, input().split()))
 
-                elif top == '{':
-                    if j == '}': 
-                        temp.pop()
-                    elif j == ')' or j == ']':
-                        isTrue = False
-                        break
-                    else:
-                        temp.append(j)
-            else:
-                temp.append(j)
-
-        if temp:
-            continue
-        else:
-            if isTrue:
-                answer += 1
-
-    return answer
-
+print(count_by_range(a,x,x))

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pt.py</StartupFile>
+    <StartupFile>Level3\최고의 집합.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -340,7 +340,37 @@
     <Compile Include="Level2\후보키%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level3\n으로 표현%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\가장 긴 팰린드롬%28가장 짧은 시간 외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\가장 먼 노드.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\거스름돈%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level3\경주로 건설%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\네트워크.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\단속카메라.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\단어변환%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\디스크 컨트롤러%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\멀리뛰기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\베스트앨범.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\보석쇼핑%28다시%29.py">
@@ -349,7 +379,37 @@
     <Compile Include="Level3\불량사용자%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level3\섬 연결하기%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\순위.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\야근지수%28중요%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\여행경로%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\이중우선순위큐.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\입국심사%28문제이해x%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\정수삼각형%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\줄 서는 방법%28중요 어려움%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level3\징검다리 건너기%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\최고의 집합.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\하노이 탑.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="practice.py">
