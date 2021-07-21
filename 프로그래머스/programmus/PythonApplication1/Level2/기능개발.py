@@ -29,7 +29,6 @@
 #    return answer
 
 def solution(progresses, speeds):
-
     answer = []
     time = 0
     count = 0

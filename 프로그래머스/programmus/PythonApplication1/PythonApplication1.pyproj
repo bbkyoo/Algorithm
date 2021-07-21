@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Level3\최고의 집합.py</StartupFile>
+    <StartupFile>Level2\스티커모으기2(다시).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -205,6 +205,9 @@
     <Compile Include="Level2\기능개발.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level2\기지국 설치%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level2\뉴스클러스팅.py">
       <SubType>Code</SubType>
     </Compile>
@@ -257,6 +260,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\스킬트리.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level2\스타수열%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level2\스티커모으기2%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\압축%28다시%29.py">
@@ -340,6 +349,12 @@
     <Compile Include="Level2\후보키%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level3\110 옮기기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\2xN 타일링.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level3\n으로 표현%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -358,16 +373,25 @@
     <Compile Include="Level3\네트워크.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level3\다단계 칫솔 판매.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level3\단속카메라.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\단어변환%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level3\등굣길.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level3\디스크 컨트롤러%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\멀리뛰기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\모두 0으로 만들기.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\베스트앨범.py">
@@ -383,6 +407,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\순위.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\숫자 게임.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\야근지수%28중요%29.py">
@@ -406,7 +433,7 @@
     <Compile Include="Level3\징검다리 건너기%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Level3\최고의 집합.py">
+    <Compile Include="Level3\최고의 집합%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\하노이 탑.py">

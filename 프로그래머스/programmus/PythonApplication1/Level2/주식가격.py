@@ -1,13 +1,13 @@
-def solution(price):
-    answer = [0] * len(price)
-
-    for i in range(len(price)-1):
-        for j in range(i, len(price)-1):
-                if price[i] > price[j]: 
-                    break
-                else:
-                    answer[i] += 1
-
-    return answer
-
-print(solution([1,2,3,2,3]))
+def solution(prices):
+    ans = []
+    for i in range(len(prices)):
+        cnt = 0
+        for j in range(i+1, len(prices)):
+            if prices[i] > prices[j]:
+                cnt += 1
+                break
+            else:
+                cnt += 1
+        ans.append(cnt) 
+    
+    return ans

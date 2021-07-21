@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>practice.py</StartupFile>
+    <StartupFile>최단경로\해킹.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -724,6 +724,24 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="이분탐색\이분탐색 기초.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\녹색 옷 입은 애가 젤다지%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\미로만들기%28걍처외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\중량제한.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최단경로\해킹.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="트리\너구리 구구.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="트리\부동산다툼%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="파이썬 스킬모음.py">

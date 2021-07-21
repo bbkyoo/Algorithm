@@ -25,7 +25,7 @@ def pre_order(in_start, in_end, post_start, post_end): # 중위순회 범위, �
         end_count = in_end - p_index # 오른쪽 인자 갯수
 
         pre_order(in_start, in_start + start_count - 1, post_start, post_start + start_count - 1) # 부모 노드 기준 왼쪽 노드 
-        pre_order(in_end - end_count + 1 , in_end , post_end- end_count , post_end - 1) # 부모 노드 기준 오른쪽 노드
+        pre_order(in_end - end_count + 1 , in_end , post_end - end_count , post_end - 1) # 부모 노드 기준 오른쪽 노드
         
 pre_order(0, N-1, 0, N-1)
 
