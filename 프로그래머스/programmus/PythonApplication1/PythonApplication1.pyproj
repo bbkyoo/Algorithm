@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Level2\스티커모으기2(다시).py</StartupFile>
+    <StartupFile>Level2\스타수열(정말다시).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -241,6 +241,9 @@
     <Compile Include="Level2\배달.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level2\베스트앨범.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level2\삼각달팽이%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -262,7 +265,7 @@
     <Compile Include="Level2\스킬트리.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Level2\스타수열%28못품%29.py">
+    <Compile Include="Level2\스타수열%28정말다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\스티커모으기2%28다시%29.py">
