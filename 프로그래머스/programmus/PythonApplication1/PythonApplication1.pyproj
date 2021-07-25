@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Level2\스타수열(정말다시).py</StartupFile>
+    <StartupFile>practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -205,9 +205,6 @@
     <Compile Include="Level2\기능개발.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Level2\기지국 설치%28다시%29.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Level2\뉴스클러스팅.py">
       <SubType>Code</SubType>
     </Compile>
@@ -241,9 +238,6 @@
     <Compile Include="Level2\배달.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Level2\베스트앨범.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Level2\삼각달팽이%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -263,12 +257,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\스킬트리.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Level2\스타수열%28정말다시%29.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Level2\스티커모으기2%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level2\압축%28다시%29.py">
@@ -373,6 +361,9 @@
     <Compile Include="Level3\경주로 건설%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level3\기지국 설치%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level3\네트워크.py">
       <SubType>Code</SubType>
     </Compile>
@@ -413,6 +404,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\숫자 게임.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\스타수열%28정말다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\스티커모으기2%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\야근지수%28중요%29.py">

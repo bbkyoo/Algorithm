@@ -32,3 +32,4 @@ def solution(sticker):
 
 
 
+
