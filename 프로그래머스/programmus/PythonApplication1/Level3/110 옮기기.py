@@ -1,6 +1,48 @@
-#def solution(s):
-#    answer = []
-#    return answer
-s = ["1110","100111100","0111111010"]
+from collections import deque
 
-asdf
+def solution(s):
+    answer = []
+    for string in s:
+        stack = []
+        count = 0
+
+        for i in string:
+            if i == '0':
+                if stack[-2:] == ['1','1']:
+                    count += 1
+                    stack.pop()
+                    stack.pop()
+                else:
+                    stack.append(i)
+            else:
+                stack.append(i)
+
+        if count == 0:
+            answer.append(string)
+        else:
+            final = deque()
+
+            while stack:
+                if stack[-1] == '1':
+                    final.append(stack.pop())
+                elif stack[-1] == '0':
+                    break
+
+            while count > 0:
+                final.appendleft('0')
+                final.appendleft('1')
+                final.appendleft('1')
+                count -= 1
+
+            while stack:
+                final.appendleft(stack.pop())
+            answer.append(''.join(final))
+
+    return answer
+
+
+
+
+
+
+

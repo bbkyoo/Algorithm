@@ -1,20 +1,38 @@
+import sys
+
+input = sys.stdin.readline
+
+def binary(i, card_n, start, end):
+    if start > end:
+        return 0
+
+    mid = (start + end) // 2
+
+    if i == card_n[mid]:
+        return card_n[start:end+1].count(i)
+    elif i < card_n[mid]:
+        return binary(i, card_n, start, mid-1)
+    else:
+        return binary(i, card_n, mid+1, end)
+
+
 n = int(input())
+card_n = list(map(int, input().split()))
+card_n.sort()
 
-inorder = list(map(int, input().split()))
-postorder = list(map(int, input().split()))
-pos = [0]*(n+1)
+m = int(input())
+card_m = list(map(int, input().split()))
 
-for i in range(n):
-    pos[inorder[i]] = i
+n_dic = {}    
 
-def pre_order(in_start, in_end, post_start, post_end):
-    if post_start <= post_end:
-        parents = postorder[post_end]
+for i in card_n:
+    start = 0
+    end = len(card_n) - 1
+    if i not in n_dic:
+        n_dic[i] = binary(i, card_n, start, end)
 
-        print(parents, end=' ')
-        p_index = pos[parents]
-        start_count = p_index - in_start
-        end_count = in_end - p_index
-
-        pre_order(in_start, in_start + start_count - 1, post_start, post_start+start_count-1)
-        pre_order(in_end - end_count + 1, in_end, post_end - end_count, post_end - 1)
+for i in card_m:
+    if i in n_dic:
+        print(n_dic[i], end=" ")
+    else:
+        print(0, end=" ")

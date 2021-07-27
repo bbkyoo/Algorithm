@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>practice.py</StartupFile>
+    <StartupFile>Level3\110 옮기기.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -367,7 +367,7 @@
     <Compile Include="Level3\네트워크.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Level3\다단계 칫솔 판매.py">
+    <Compile Include="Level3\다단계 칫솔 판매%28중요 꼭 다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\단속카메라.py">

@@ -1,16 +1,22 @@
-bridge_length = 2	
-weight = 10	
-truck_weights = [7,4,5,6]
+from itertools import permutations
 
-arr = [0] * bridge_length
-time = 0
-while arr:
-    arr.pop(0)
-    if truck_weights:
-        if sum(arr) + truck_weights[0] <= weight:
-            arr.append(truck_weights.pop(0))
-        else:
-            arr.append(0)
-    time += 1
+def isPrime(num):
+    if num <= 1:
+        return False
 
-print(time)
+    for i in range(2, int(num**0.5)):
+        if num % i == 0:
+            return False
+    return True
+
+def solution(number):
+    numbers = list(numbers)
+
+    arr = set()
+    for i in range(len(numbers)):
+        temp = list(set(map(''.join , permutations(numbers, i+1)))) # map함수를 사용해서 더 간단하게 permutations을 가공한다.
+        for i in temp:
+            if isPrime(int(i)):
+                arr.add(int(i))
+
+    return len(arr)
