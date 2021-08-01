@@ -1,19 +1,16 @@
 def solution(numbers, target):
-    n = len(numbers)
-    cnt = 0
-    def dfs(L, total):
-        if L == n:
-            if total == target:
-                nonlocal cnt # 현재 함수의 바깥쪽에 있는 지역 변수의 값을 변경하려면 nonlocal 키워드를 사용해야 한다.
-                cnt += 1
-        else:
-            dfs(L+1, total+numbers[L])
-            dfs(L+1, total-numbers[L])
-    
-    dfs(0,0)
-    return cnt
+    result = 0
 
-numbers = [1,1,1,1,1]
-target = 3
+    def dfs(i, res):
+        nonlocal result
+        if i == len(numbers):
+            if res == target:
+               result += 1
+            return
+        else:   
+            dfs(i+1,res+numbers[i])
+            dfs(i+1,res-numbers[i])
 
-print(solution(numbers, target))
+    dfs(0, 0)
+
+    return result

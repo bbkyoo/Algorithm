@@ -1,38 +1,33 @@
-import sys
-
-input = sys.stdin.readline
-
-def binary(i, card_n, start, end):
-    if start > end:
-        return 0
-
-    mid = (start + end) // 2
-
-    if i == card_n[mid]:
-        return card_n[start:end+1].count(i)
-    elif i < card_n[mid]:
-        return binary(i, card_n, start, mid-1)
-    else:
-        return binary(i, card_n, mid+1, end)
-
+from collections import deque
 
 n = int(input())
-card_n = list(map(int, input().split()))
-card_n.sort()
-
 m = int(input())
-card_m = list(map(int, input().split()))
 
-n_dic = {}    
+matrix = [[] for _ in range(n+1)]
+visited = [0]*(n+1)
+result = 0
 
-for i in card_n:
-    start = 0
-    end = len(card_n) - 1
-    if i not in n_dic:
-        n_dic[i] = binary(i, card_n, start, end)
+for _ in range(m):
+    a, b = map(int, input().split())
+    matrix[a].append(b)
+    matrix[b].append(a)
 
-for i in card_m:
-    if i in n_dic:
-        print(n_dic[i], end=" ")
-    else:
-        print(0, end=" ")
+def bfs(v):
+    global result
+
+    q = deque([v])
+    visited[v] = 1
+
+    while q:
+       v = q.popleft()
+
+       for i in matrix[v]:
+           if visited[i] == 0:
+               visited[i] = 1
+               q.append(i)
+               result += 1
+bfs(1)
+print(result)
+
+
+

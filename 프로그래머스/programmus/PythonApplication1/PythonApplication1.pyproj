@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Level3\110 옮기기.py</StartupFile>
+    <StartupFile>pt.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -434,6 +434,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\최고의 집합%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\풍선 터뜨리기.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\하노이 탑.py">

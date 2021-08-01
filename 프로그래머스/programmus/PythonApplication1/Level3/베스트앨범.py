@@ -4,7 +4,6 @@
 
 # 정말 중요한점!! dic는 sort는 안먹어도 sorted로 해결이 가능하다.
 
-
 from collections import defaultdict
 
 def solution(genres, plays):
