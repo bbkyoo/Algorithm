@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>practice.py</StartupFile>
+    <StartupFile>문자열\Hashing.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -318,6 +318,9 @@
     <Compile Include="구현\지구온난화.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\진법 변환.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\참외밭.py">
       <SubType>Code</SubType>
     </Compile>
@@ -558,6 +561,9 @@
     <Compile Include="문자열\30.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="문자열\Hashing.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="문자열\IOIOI.py">
       <SubType>Code</SubType>
     </Compile>
@@ -673,6 +679,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="수학3\최소공배수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\팩토리얼 진법.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="쉬운문제들\TGN.py">

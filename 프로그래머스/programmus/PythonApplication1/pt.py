@@ -1,20 +1,6 @@
-def solution(numbers, target):
-    result = 0
-
-    def dfs(i, res):
-        nonlocal result
-        if i == len(numbers):
-            if res == target:
-               result += 1
-            return
-        else:   
-            dfs(i+1,res+numbers[i])
-            dfs(i+1,res-numbers[i])
-
-    dfs(0, 0)
-
-    return result
-
-numbers = [1,1,1,1,1]
-target = 3
-print(solution(numbers, target))
+def solution(phone_book):
+    phone_book.sort()
+    for a in range(len(phone_book)-1):
+        if phone_book[a] in phone_book[a+1] :
+            return False
+    return True
