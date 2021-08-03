@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>문자열\Hashing.py</StartupFile>
+    <StartupFile>pyptpp.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -301,6 +301,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\욱제는 결정장애야.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\이진수 변환.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\이진수덧셈%28다시%29.py">
