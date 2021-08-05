@@ -31,3 +31,4 @@ def solution(N, road, K):
 
     return count
 
+

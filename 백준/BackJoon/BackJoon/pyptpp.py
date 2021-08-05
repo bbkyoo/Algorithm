@@ -1,50 +1,37 @@
-def solution(p):
-    def isgalho(s):
-        answer = []
-        for i in s:
-            if len(answer) == 0:
-                answer.append(i)
-            else:
-                if answer[-1] == "(":
-                    if i == ")":
-                        answer.pop()
-                    else:
-                        answer.append(i)
+from collections import deque
 
-        if answer:
-            return False
-        else:
-            return True
+def bfs(v):
+    q = deque()
+    q.append(v)
+    visited[v] = 1
 
+    while q:
+        v = q.popleft()
 
-    def dfs(w):
-        if len(w) == 0:
-            return ""
+        for i in matrix[v]:
+            if visited[i] == 0:
+                q.append(i)
+                visited[i] = 1
+                dist[i] = dist[v] + 1
 
-        u = ""
-        v = ""
+n, m, k, x = map(int, input().split())
 
-        for i in range(len(w)):
-            if len(u) == 0:
-                u += w[i]
-            else:
-                if u.count('(') == u.count(')'):
-                    v += w[i:]
-                    break
-                else:
-                    u += w[i]
+matrix = [[] for _ in range(n+1)]
+visited = [0]*(n+1)
+dist = [0]*(n+1)
 
-        if isgalho(u):
-            return u + dfs(v)
-        else:
-            u = list(u)
-            for i in range(len(u)):
-                if u[i] == ')':
-                    u[i] = "("
-                elif u[i] == '(':
-                    u[i] = ")"
+for _ in range(m):
+    a, b = map(int, input().split())
+    matrix[a].append(b)
+bfs(x)
+result = []
+for i in range(1, len(dist)):
+    if dist[i] == k:
+        result.append(i)
+result.sort()
 
-            u = ''.join(u)
-        return "(" + dfs(v) + ")" + u[1:-1]
-
-    return dfs(p)
+if len(result) == 0:
+    print(-1)
+else:
+    for i in result:
+        print(i)

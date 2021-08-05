@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Level1\로또의 최고 순위와 최저 순위.py</StartupFile>
+    <StartupFile>last.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -254,9 +254,6 @@
     <Compile Include="Level2\방문길이.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Level2\배달.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Level2\삼각달팽이%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -408,6 +405,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\모두 0으로 만들기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Level3\배달.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\베스트앨범.py">
