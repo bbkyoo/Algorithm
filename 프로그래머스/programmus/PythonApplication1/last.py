@@ -1,16 +1,9 @@
-def solution(n, lost, reserve):
-    student = [i for i in range(1, n+1)]
+import heapq
 
-    lost.sort()
-    reserve.sort()
-    temp = []
+operations = ["I 16","D 1"]
+q = []
 
-    for i in range(len(reserve)):
-         if reserve[i] in lost:
-             temp.append(i)
-             lost.pop(lost.index(reserve[i]))
-
-    while temp:
-        reserve.pop(temp[-1])
-        temp.pop(-1)
-
+for i in operations:
+    if i == "D 1" and q:
+        q.pop(q.index(max(q)))
+    

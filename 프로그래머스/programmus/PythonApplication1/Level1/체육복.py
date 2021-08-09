@@ -7,33 +7,15 @@
 # 여벌 체육복을 가져온 학생이 체육복을 도난당했을 수 있습니다. 이때 이 학생은 체육복을 하나만 도난당했다고 가정하며, 남은 체육복이 하나이기에 다른 학생에게는 체육복을 빌려줄 수 없습니다.
 
 def solution(n, lost, reserve):
-    student = [i for i in range(1, n+1)]
+    set_reserve = set(reserve) - set(lost)
+    set_lost = set(lost) - set(reserve)
 
-    lost.sort()
-    reserve.sort()
-    temp = []
-
-    for i in range(len(reserve)):
-        if reserve[i] in lost:
-            temp.append(i)
-            lost.pop(lost.index(reserve[i]))
-    
-    while temp:
-        reserve.pop(temp[-1])
-        temp.pop(-1)
-
-    for i in range(len(lost)):
-        if lost[i] in student:
-            student.pop(student.index(lost[i]))
-
-    for i in range(len(reserve)):
-        for j in range(len(lost)):
-            if (reserve[i]-1 == lost[j] or reserve[i]+1 == lost[j]) and (lost[j] not in student):
-                student.append(lost[j])
-                break
-    
-    answer = len(student)
-    return answer
+    for i in set_reserve:
+        if i-1 in set_lost:
+            set_lost.remove(i-1)
+        elif i+1 in set_lost:
+            set_lost.remove(i+1)
+    return n - len(set_lost)
 
                 
             

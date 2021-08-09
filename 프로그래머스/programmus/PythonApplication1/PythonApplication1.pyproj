@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>last.py</StartupFile>
+    <StartupFile>Level3\표 편집.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -461,6 +461,9 @@
     <Compile Include="Level3\추석 트래픽.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level3\표 편집.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Level3\풍선 터뜨리기.py">
       <SubType>Code</SubType>
     </Compile>
@@ -474,6 +477,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="위클리 챌린지\부족한 금액 계산하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="위클리 챌린지\상호 평가.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
