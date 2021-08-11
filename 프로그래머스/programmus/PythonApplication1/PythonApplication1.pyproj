@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Level3\표 편집.py</StartupFile>
+    <StartupFile>Level3\추석 트래픽.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
