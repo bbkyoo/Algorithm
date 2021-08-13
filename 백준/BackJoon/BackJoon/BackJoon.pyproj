@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pyptpp.py</StartupFile>
+    <StartupFile>그래프\치즈(못품).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -451,6 +451,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\지름길%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\치즈%28못품%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\친구%28플로이드%29.py">
