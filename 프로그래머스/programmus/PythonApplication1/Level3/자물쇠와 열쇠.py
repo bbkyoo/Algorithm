@@ -1,9 +1,5 @@
 # https://johnyejin.tistory.com/127
 
-key = [[0, 0, 0], [1, 0, 0], [0, 1, 1]]	
-lock = [[1, 1, 1], [1, 1, 0], [1, 0, 1]]
-
-
 def rotation(arr):
     n = len(arr)
     ret = [[0]*n for _ in range(n)]

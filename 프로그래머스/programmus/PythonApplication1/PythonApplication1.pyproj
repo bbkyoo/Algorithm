@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Level3\셔틀버스.py</StartupFile>
+    <StartupFile>pt.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -422,7 +422,7 @@
     <Compile Include="Level3\섬 연결하기%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Level3\셔틀버스.py">
+    <Compile Include="Level3\셔틀버스%28꼭 다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Level3\순위.py">
@@ -486,6 +486,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="위클리 챌린지\상호 평가.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="위클리 챌린지\퍼즐 조각 채우기.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

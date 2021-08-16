@@ -1,6 +1,25 @@
-def solution(phone_book):
-    phone_book.sort()
-    for a in range(len(phone_book)-1):
-        if phone_book[a] in phone_book[a+1] :
-            return False
-    return True
+import heapq
+
+def solution(jobs):
+    start = -1
+    heap = []
+    now = 0
+    answer = 0
+
+    i = 0
+    while i < len(jobs):
+        for j in jobs:
+            if start < j[0] <= now:
+                heapq.heappush(heap, [j[1], j[0]])
+        if len(heap) > 0:
+            current = heapq.heappop(heap)
+            start = now
+            now += current[0]
+            answer += (now - current[1])
+            i += 1
+        else:
+            now += 1
+    
+    return answer // len(jobs)
+
+print(solution([[0, 3], [1, 9], [2, 6]]))
