@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그래프\치즈(못품).py</StartupFile>
+    <StartupFile>구현\올림픽(다시).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -300,6 +300,9 @@
     <Compile Include="구현\오목%28알고리즘외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\올림픽%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\욱제는 결정장애야.py">
       <SubType>Code</SubType>
     </Compile>
@@ -322,6 +325,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\진법 변환.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\집합.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\참외밭.py">
@@ -753,10 +759,16 @@
     <Compile Include="최단경로\해킹.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="트리\LCA%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="트리\너구리 구구.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="트리\부동산다툼%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="트리\완전 이진 트리%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="파이썬 스킬모음.py">

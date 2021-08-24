@@ -1,25 +1,13 @@
-import heapq
+def solution(n, money):
+    dp = [1] + [0]*n
 
-def solution(jobs):
-    start = -1
-    heap = []
-    now = 0
-    answer = 0
+    for i in money:
+        for j in range(i, n+1):
+            if j >= i:
+                dp[j] += dp[j-i]
 
-    i = 0
-    while i < len(jobs):
-        for j in jobs:
-            if start < j[0] <= now:
-                heapq.heappush(heap, [j[1], j[0]])
-        if len(heap) > 0:
-            current = heapq.heappop(heap)
-            start = now
-            now += current[0]
-            answer += (now - current[1])
-            i += 1
-        else:
-            now += 1
-    
-    return answer // len(jobs)
+    return dp[n] % 1000000007
 
-print(solution([[0, 3], [1, 9], [2, 6]]))
+n = 5
+money = [1,2,5]
+print(solution(n, money))
