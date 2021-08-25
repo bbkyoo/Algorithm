@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>구현\올림픽(다시).py</StartupFile>
+    <StartupFile>practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -280,6 +280,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\쉽게푸는문제.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\스위치 켜고 끄기.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\십자카드문제.py">
