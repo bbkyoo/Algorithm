@@ -1,55 +1,46 @@
-n = int(input())
-switch = list(map(int, input().split()))
-m = int(input())
-for _ in range(m):
-    gender, num = map(int, input().split()) 
-    if gender == 1:
-        for i in range(num-1, len(switch),num):
-            if switch[i] == 1:
-                switch[i] = 0
-            elif switch[i] == 0:
-                switch[i] = 1
+import sys
 
-    else:
-        num = num -1
-        if switch[num] == 1:
-            switch[num] = 0
-        elif switch[num] == 0:
-            switch[num] = 1
+input = sys.stdin.readline
 
-        i = 1
-        while True: 
-            if 0<= num-i and num+i < len(switch):
-                if switch[num-i] == switch[num+i]:
-                    if switch[num-i] == 1:
-                        switch[num-i] = 0
-                    elif switch[num-i] == 0:
-                        switch[num-i] = 1
-                    
-                    if switch[num+i] == 1:
-                        switch[num+i] = 0
-                    elif switch[num+i] == 0:
-                        switch[num+i] = 1
+dx = [-1,0,1,0]
+dy = [0,1,0,-1]
 
-                    i += 1
-                else:
-                    break
-            else:
-                break
+def clean(x, y, d):
+    global ans
 
-cnt = 0
-b = 1
-for i in range(len(switch)):
-    print(switch[i], end= ' ')
-    cnt += 1
-    if cnt >= 20*b:
-        b += 1
-        print()
-        
+    if matrix[x][y] == 0:
+        matrix[x][y] = 2
+        ans += 1
+
+    for _ in range(4):
+        nd = (d+3) % 4
+
+        nx = x + dx[nd]
+        ny = y + dy[nd]
+
+        if matrix[nx][ny] == 0:
+            clean(nx, ny, nd)
+            return
+
+        d = nd
+    
+    nd = (d + 2) % 4
+
+    nx = x + dx[nd]
+    ny = y + dy[nd]
+
+    if matrix[nx][ny] == 1:
+        return
+
+    clean(nx, ny, d)
 
 
+n, m = map(int, input().split())
+x, y, d = map(int, input().split())
 
+matrix = []
+for i in range(n):
+    matrix.append(list(map(int, input().split())))
 
-
-
-
+ans = 0
+clean(x, y, d)

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>practice.py</StartupFile>
+    <StartupFile>그리디알고리즘\보석 도둑(중요).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -258,10 +258,16 @@
     <Compile Include="구현\생일.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\세 수.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\소가길을건너간이유1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\속도위반.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\수열.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\수이어쓰기1.py">
@@ -529,6 +535,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그리디알고리즘\박떠트리기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\보석 도둑%28중요%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\수들의 합.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그리디알고리즘\안정적인문자열.py">
