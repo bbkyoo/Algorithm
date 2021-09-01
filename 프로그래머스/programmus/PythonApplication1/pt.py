@@ -1,29 +1,24 @@
-def pop_num(matrix, m, n):
-    pop_set = set()
+n = 5
+number = 12
 
-    # search
-    for i in range(1, n):
-        for j in range(1, m):
-            if matrix[i][j] == matrix[i-1][j-1] == matrix[i-1][j] == matrix[i][j-1] != '_':
-                pop_set |= set([(i, j), (i-1, j-1), (i-1, j), (i, j-1)]) # | - 합집합 연산자, a |= b는 => a는 a와b의 합집합 형태, b는 그대로 이다.  
+def solution(N, number):
+    answer = -1
+    dp = []
 
-    # set_board
-    for i, j in pop_set:
-        matrix[i][j] = 0
+    for i in range(1, 9):
+        numbers = set()
+        numbers.add(int(str(N)*i))
 
-    for i, row in enumerate(matrix):
-        empty = ['_'] * row.count(0)
-        matrix[i] = empty + [block for block in row if block != 0]
-        
-    return len(pop_set)
+        for j in range(0, i-1):
+            for x in dp[j]:
+                for y in dp[-j-1]:
+                    numbers.add(x+y)
+                    numbers.add(x-y)
+                    numbers.add(x*y)
 
-                
-def solution(m, n, board):
-    count = 0
-    matrix = list(map(list,zip(*board))) # board 행을 열로 바꾸는 코드
+                    if y != 0:
+                        numbers.add(x // y)
 
-    while True:
-        pop = pop_num(matrix, m, n)
-        if pop == 0:
-            return count
-        count += pop
+        if number in numbers:
+            answer = i
+            break

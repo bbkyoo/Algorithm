@@ -8,7 +8,7 @@ dy = [0,1,0,-1]
 def clean(x, y, d):
     global ans
 
-    if matrix[x][y] == 0:
+    if matrix[x][y] == 0: # 현재 자리를 청소할 수 있으면 청소를 한다. 
         matrix[x][y] = 2
         ans += 1
 

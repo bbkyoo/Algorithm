@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그리디알고리즘\보석 도둑(중요).py</StartupFile>
+    <StartupFile>그래프\작업.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -465,6 +465,9 @@
     <Compile Include="그래프\이모티콘.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\작업.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\지름길%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -472,6 +475,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\친구%28플로이드%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\키 순서.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\텀프로젝트.py">
