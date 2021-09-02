@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그래프\작업.py</StartupFile>
+    <StartupFile>practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -375,6 +375,9 @@
     <Compile Include="그래프\ABCDE.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\ACM Craft%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\Count Circle Groups.py">
       <SubType>Code</SubType>
     </Compile>
@@ -465,7 +468,7 @@
     <Compile Include="그래프\이모티콘.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="그래프\작업.py">
+    <Compile Include="그래프\작업%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\지름길%28다시%29.py">

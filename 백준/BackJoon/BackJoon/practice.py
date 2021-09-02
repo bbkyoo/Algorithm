@@ -2,41 +2,79 @@ import sys
 
 input = sys.stdin.readline
 
-dx = [-1,0,1,0]
-dy = [0,1,0,-1]
+def rotate_one(matrix):
+    return matrix[::-1]
 
-def clean(x,y,d):
-    global ans
+def rotate_two(matrix):
+    for i in range(len(matrix)):
+        for i in range(len(matrix)):
+            matrix[i] = matrix[i][::-1]
 
-    if matrix[x][y] == 0:
-        matrix[x][y] = 2
-        ans += 1
+    return matrix
 
-    for _ in range(4):
-        nd = (d+3) % 4
+def rotate_three(matrix):
+    global n, m
+    n, m = m, n
+    copy_matrix = [list(row)[::-1] for row in zip(*matrix)]
 
-        nx = x + dx[nd]
-        ny = y + dy[nd]
-        if matrix[nx][ny] == 0:
-            clean(nx, ny, nd)
-            return
-        d = nd
+    return copy_matrix
 
-    nd = (d + 2) % 4
+def rotate_four(matrix):
+    global n, m
+    n, m = m, n
 
-    nx = x + dx[nd]
-    ny = y + dy[nd]
+    copy_matrix = [list(row) for row in list(zip(*matrix))[::-1]]
 
-    if matrix[nx][ny] == 1:
-        return
-    clean(nx, ny, d)
+    return copy_matrix
+
+def rotate_five(n, m, matrix):
+    copy = [[0]*m for _ in range(n)]
+
+    hlaf_n = n // 2
+    hlaf_m = m // 2
+
+    for i in range(hlaf_n):
+        for j in range(hlaf_n):
+            copy[half_n + i][j] = matrix[i][j]
+
+    for i in range(hlaf_n):
+        for j in range(hlaf_m, m):
+            copy[half_n + i][j] = matrix[i][j]
+
+    for i in range(hlaf_n, n):
+        for j in range(hlaf_m, m):
+            copy[i][j - half_m] = matrix[i][j]
+
+    for i in range(hlaf_n, n):
+        for j in range(hlaf_m):
+            copy[i][j - half_m] = matrix[i][j]
 
 
-n, m = map(int, input().split())
-x, y, d = map(int, input().split())
 
+
+n, m, r = map(int, input().split())
+
+matrix = []
 for i in range(n):
     matrix.append(list(map(int, input().split())))
 
-ans = 0
-clean(x, y, d)
+nums = list(map(int, input().split()))
+
+for num in nums:
+    if num == 1:
+        matrix = rotate_one(matrix)
+    elif num == 2:
+        matrix = rotate_two(matrix)
+    elif num == 3:
+        matrix = rotate_three(matrix)
+    elif num == 4:
+        matrix = rotate_four(matrix)
+    elif num == 5:
+        matrix = rotate_five(n, m, matrix)
+    else:
+        matrix = rotate_six(n, m, matrix)
+
+for i in matrix:
+    for j in i:
+        print(j, end=" ")
+    print()
