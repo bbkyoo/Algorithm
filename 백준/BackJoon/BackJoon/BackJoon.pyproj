@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>practice.py</StartupFile>
+    <StartupFile>그래프\파티.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -487,6 +487,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\파이프옮기기1%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\파티.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\피자오븐.py">
