@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그래프\파티.py</StartupFile>
+    <StartupFile>그래프\욕심쟁이 판다.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -460,6 +460,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\양 한마리, 양 두마리.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\욕심쟁이 판다.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\유턴싫어.py">
