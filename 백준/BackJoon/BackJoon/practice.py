@@ -1,23 +1,30 @@
-import sys
+n = int(input())
 
-input = sys.stdin.readline
+s = []
 
-n, b = input().split()
+for _ in range(n):
+    s.append(input())
+
 dic = {}
-num = 10
 
-for i in range(65, 91):
-    dic[chr(i)] = num
-    num += 1
+for i in s:
+    k = len(i) - 1
+    for j in i:
+        if j in dic:
+            dic[j] += pow(10, k)
+        else:
+            dic[j] = pow(10, k)
+        k -= 1
 
-n = list(n)
-n.reverse()
+nums = []
+
+for value in dic.values():
+    nums.append(value)
+
+nums.sort(reverse=True)
 
 result = 0
-for i in range(len(n)):
-    if n[i] in dic:
-        result += (dic[n[i]]) * (int(b)**i)
-    else:
-        result += (int(n[i])) * (int(b)**i)
+t = 9
 
-print(result)
+for i in range(len(nums)):
+    result += nums[i]*t

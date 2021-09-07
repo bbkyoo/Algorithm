@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그래프\욕심쟁이 판다.py</StartupFile>
+    <StartupFile>그래프\다리 만들기(다시).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -409,6 +409,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\늑대와 양.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\다리 만들기%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\돌 그룹.py">

@@ -14,7 +14,6 @@ for i in range(1, N):
     if start > price[i]:
         start = price[i]
         result += start * length[k+1]
-   
     else:
         result += start * length[k+1]
     k += 1
