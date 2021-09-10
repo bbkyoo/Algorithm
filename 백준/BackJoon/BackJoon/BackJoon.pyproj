@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그래프\다리 만들기(다시).py</StartupFile>
+    <StartupFile>그래프\게임 개발.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -382,6 +382,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\개리멘더링.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\게임 개발.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\경로찾기%28플로이드와샬%29.py">
