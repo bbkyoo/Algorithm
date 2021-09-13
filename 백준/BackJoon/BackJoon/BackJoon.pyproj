@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그래프\게임 개발.py</StartupFile>
+    <StartupFile>그래프\역사.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -384,7 +384,7 @@
     <Compile Include="그래프\개리멘더링.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="그래프\게임 개발.py">
+    <Compile Include="그래프\게임 개발%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\경로찾기%28플로이드와샬%29.py">
@@ -468,7 +468,13 @@
     <Compile Include="그래프\양 한마리, 양 두마리.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\역사.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\욕심쟁이 판다.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\웜홀%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\유턴싫어.py">
@@ -478,6 +484,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\작업%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\저울.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\지름길%28다시%29.py">

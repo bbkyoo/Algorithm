@@ -1,37 +1,21 @@
-from collections import deque
+board = [[5,5,5,5,5],[5,5,5,5,5],[5,5,5,5,5],[5,5,5,5,5]]
+skill = [[1,0,0,3,4,4],[1,2,0,2,3,2],[2,1,0,3,1,2],[1,0,1,3,3,1]]
 
-def bfs(v):
-    q = deque()
-    q.append(v)
-    visited[v] = 1
+for sk in skill:
+    if sk[0] == 1:
+        for i in range(sk[1], sk[3]+1):
+            for j in range(sk[2], sk[4]+1):
+                board[i][j] -= sk[5]
 
-    while q:
-        v = q.popleft()
+    else:
+        for i in range(sk[1], sk[3]+1):
+            for j in range(sk[2], sk[4]+1):
+                board[i][j] += sk[5]
 
-        for i in matrix[v]:
-            if visited[i] == 0:
-                q.append(i)
-                visited[i] = 1
-                dist[i] = dist[v] + 1
+answer = 0
+for i in board:
+    for j in i:
+        if j >= 1:
+            answer += 1
 
-n, m, k, x = map(int, input().split())
-
-matrix = [[] for _ in range(n+1)]
-visited = [0]*(n+1)
-dist = [0]*(n+1)
-
-for _ in range(m):
-    a, b = map(int, input().split())
-    matrix[a].append(b)
-bfs(x)
-result = []
-for i in range(1, len(dist)):
-    if dist[i] == k:
-        result.append(i)
-result.sort()
-
-if len(result) == 0:
-    print(-1)
-else:
-    for i in result:
-        print(i)
+print(answer)
