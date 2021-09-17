@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그래프\역사.py</StartupFile>
+    <StartupFile>그래프\플로이드2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -396,6 +396,9 @@
     <Compile Include="그래프\구슬찾기.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\궁금한 민호%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\그대,그머가 되어%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -433,6 +436,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\미친로봇.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\벽 부수고 이동하기2%28시간초과%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\본대산책.py">
@@ -492,6 +498,9 @@
     <Compile Include="그래프\지름길%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\최소비용 구하기2%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\치즈%28못품%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -508,6 +517,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\파티.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\플로이드2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\피자오븐.py">
