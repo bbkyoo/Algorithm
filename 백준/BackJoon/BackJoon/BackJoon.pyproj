@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그래프\플로이드2.py</StartupFile>
+    <StartupFile>그래프\회의준비.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -453,6 +453,9 @@
     <Compile Include="그래프\상근이의 여행.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\서강그라운드.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\소수 경로%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -529,6 +532,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\회의실배정2%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\회의준비.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그리디알고리즘\5차전직.py">
