@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그래프\회의준비.py</StartupFile>
+    <StartupFile>그래프\k번째 최단경로 찾기(외우기).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -381,6 +381,9 @@
     <Compile Include="그래프\Count Circle Groups.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\k번째 최단경로 찾기%28외우기%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\개리멘더링.py">
       <SubType>Code</SubType>
     </Compile>
@@ -424,6 +427,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\두 로봇.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\레이저 통신.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\말이 되고픈 원숭이%28다시%29.py">
@@ -483,6 +489,9 @@
     <Compile Include="그래프\욕심쟁이 판다.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\운동.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\웜홀%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -513,6 +522,9 @@
     <Compile Include="그래프\키 순서.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\택배%28모르겠다.%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\텀프로젝트.py">
       <SubType>Code</SubType>
     </Compile>
@@ -526,6 +538,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\피자오븐.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\해킹.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\현수막.py">
@@ -759,6 +774,9 @@
     <Compile Include="수학3\팩토리얼 진법.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="쉬운문제들\123 더하기%28중요%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="쉬운문제들\TGN.py">
       <SubType>Code</SubType>
     </Compile>
@@ -784,6 +802,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="쉬운문제들\탄산음료.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="쉬운문제들\퇴사%28dp 못품%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="스택\오큰수%28다시%29.py">

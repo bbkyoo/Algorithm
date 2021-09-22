@@ -1,66 +1,82 @@
-from collections import defaultdict, deque
+from collections import deque
+ 
+class Graph:
+    def __init__(self, adjac_lis):
+        self.adjac_lis = adjac_lis
+ 
+    def get_neighbors(self, v):
+        return self.adjac_lis[v]
+ 
+    def h(self, n):
+        H = {
+            'A': 1,
+            'B': 1,
+            'C': 1,
+            'D': 1
+        }
+ 
+        return H[n]
+ 
+    def a_star_algorithm(self, start, stop):
+        open_lst = set([start])
+        closed_lst = set([])
+ 
+        poo = {}
+        poo[start] = 0
+ 
+        par = {}
+        par[start] = start
+ 
+        while len(open_lst) > 0:
+            n = None
+ 
+            for v in open_lst:
+                if n == None or poo[v] + self.h(v) < poo[n] + self.h(n):
+                    n = v;
+ 
+            if n == None:
+                print('Path does not exist!')
+                return None
+ 
+            if n == stop:
+                reconst_path = []
+ 
+                while par[n] != n:
+                    reconst_path.append(n)
+                    n = par[n]
+ 
+                reconst_path.append(start)
+ 
+                reconst_path.reverse()
+ 
+                print('Path found: {}'.format(reconst_path))
+                return reconst_path
+ 
+            for (m, weight) in self.get_neighbors(n):
+                if m not in open_lst and m not in closed_lst:
+                    open_lst.add(m)
+                    par[m] = n
+                    poo[m] = poo[n] + weight
+ 
+                else:
+                    if poo[m] > poo[n] + weight:
+                        poo[m] = poo[n] + weight
+                        par[m] = n
+ 
+                        if m in closed_lst:
+                            closed_lst.remove(m)
+                            open_lst.add(m)
+ 
+            open_lst.remove(n)
+            closed_lst.add(n)
+ 
+        print('Path does not exist!')
+        return None
 
-info = [0,1,0,1,1,0,1,0,0,1,0]
-edges = [[0,1],[0,2],[1,3],[1,4],[2,5],[2,6],[3,7],[4,8],[6,9],[9,10]]
-
-def bfs1(v):
-    q = deque([])
-    q2 = deque([])
-    ship = 1
-    wolf = 0
-    q.append([ship, wolf, v])
-    mx = ship
-    temp = []
-    while q:
-        v = q.popleft()
-        temp_ship = v[0]
-        temp_wolf = v[1]
-        for i in matrix[v[2]]:
-            if info[i] == 0:
-                temp_ship += 1
-            elif info[i] == 1:
-                temp_wolf += 1
-
-            if temp_ship > temp_wolf:
-                q.append([temp_ship, temp_wolf, i])
-                if temp_ship > mx:
-                    q2.append(temp_ship, temp_wolf, i)
-                    mx = max(mx, temp_ship) 
-
-            else:
-                q2.append([temp_ship,temp_wolf,i])
-                temp_wolf -= 1
-    return mx
-
-def bfs2(v):
-    ship = 1
-    wolf = 0
-    q.append([ship, wolf, v])
-    mx = ship
-    temp = []
-    while q:
-        v = q.popleft()
-        temp_ship = v[0]
-        temp_wolf = v[1]
-        for i in matrix[v[2]]:
-            if info[i] == 0:
-                temp_ship += 1
-            elif info[i] == 1:
-                temp_wolf += 1
-
-            if temp_ship > temp_wolf:
-                q.append([temp_ship, temp_wolf, i])
-                if temp_ship > mx:
-                    temp = [temp_ship, temp_wolf, i]
-                mx = max(mx, temp_ship) 
-
-            else:
-                q2.append([temp_ship,temp_wolf,i])
-                temp_wolf -= 1
-
-matrix = defaultdict(list)
-
-for i in edges:
-    matrix[i[0]].append(i[1])
-
-print(root(0))
+adjac_lis = {
+    'A': [('B', 1), ('C', 3), ('D', 7)],
+    'B': [('D', 5)],
+    'C': [('D', 12)]
+}
+graph1 = Graph(adjac_lis)
+graph1.a_star_algorithm('A', 'D')
