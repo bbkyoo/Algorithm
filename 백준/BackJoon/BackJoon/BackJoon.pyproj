@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그래프\k번째 최단경로 찾기(외우기).py</StartupFile>
+    <StartupFile>백준 문제집\백조의 호수(다시).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -387,6 +387,9 @@
     <Compile Include="그래프\개리멘더링.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\거의 최단 경로.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\게임 개발%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -412,6 +415,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\내리막길%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\네트워크 복구.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\네트워크 연결%28다시%29.py">
@@ -484,6 +490,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\역사.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\오민식의 고민.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\욕심쟁이 판다.py">
@@ -703,6 +712,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="문자열\회사에있는사람.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백준 문제집\백조의 호수%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백준 문제집\앱%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\N_Queen.py">
@@ -1540,6 +1555,7 @@
     <Folder Include="KOI1996\초등부\" />
     <Folder Include="KOI1997\" />
     <Folder Include="KOI1997\초등부\" />
+    <Folder Include="백준 문제집\" />
     <Folder Include="그래프\" />
     <Folder Include="구현\" />
     <Folder Include="브루트포스\단계별\" />

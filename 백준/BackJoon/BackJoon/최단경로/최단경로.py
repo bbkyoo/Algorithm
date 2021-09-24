@@ -31,7 +31,7 @@ for i in range(E):
     graph[u].append((w,v))
 
 dijkstra(k)
-
+print(dp)
 for i in range(1, V+1):
     print("INF" if dp[i] == inf else dp[i])
     
