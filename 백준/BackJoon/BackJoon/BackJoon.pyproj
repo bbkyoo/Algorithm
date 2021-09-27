@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>백준 문제집\백조의 호수(다시).py</StartupFile>
+    <StartupFile>백트래킹\N과M_05.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -429,10 +429,16 @@
     <Compile Include="그래프\다리 만들기%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그래프\달빛 여우%28못품 다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그래프\돌 그룹.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\두 로봇.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\등산.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\레이저 통신.py">
@@ -448,6 +454,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\미친로봇.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그래프\백양로 브레이크.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\벽 부수고 이동하기2%28시간초과%29.py">
@@ -723,7 +732,7 @@
     <Compile Include="백트래킹\N_Queen.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="백트래킹\N_과_M_01.py">
+    <Compile Include="백트래킹\N과M_01.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\N과M_02.py">
@@ -735,10 +744,19 @@
     <Compile Include="백트래킹\N과M_04.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="백트래킹\N과M_05.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\로또.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="백트래킹\스도쿠%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\스타트와링크.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\암호만들기.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\연산자_끼워넣기.py">
@@ -846,6 +864,9 @@
     <Compile Include="이분탐색\이분탐색 기초.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="정렬\좌표 압축.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="최단경로\녹색 옷 입은 애가 젤다지%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -856,6 +877,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="최단경로\해킹.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최소 신장 트리\별자리 만들기%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최소 신장 트리\우주신과의 교감%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="최소 신장 트리\최소 스패닝 트리%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="트리\LCA%28못품%29.py">
@@ -1555,6 +1585,7 @@
     <Folder Include="KOI1996\초등부\" />
     <Folder Include="KOI1997\" />
     <Folder Include="KOI1997\초등부\" />
+    <Folder Include="최소 신장 트리\" />
     <Folder Include="백준 문제집\" />
     <Folder Include="그래프\" />
     <Folder Include="구현\" />
