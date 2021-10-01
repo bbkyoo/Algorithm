@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>백트래킹\N과M_05.py</StartupFile>
+    <StartupFile>practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -745,6 +745,27 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\N과M_05.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N과M_06.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N과M_07.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N과M_08.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N과M_09.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N과M_10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N과M_11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\N과M_12.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\로또.py">

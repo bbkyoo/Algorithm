@@ -1,25 +1,31 @@
-import sys
-input = sys.stdin.readline
-def dfs(len, idx):
-    if len == l:
-        vo = 0
-        co = 0
-        for i in range(l):
-            if arr[i] in 'aeiou': vo += 1
-            else: co += 1
-        if vo >= 1 and co >= 2:
-            print(''.join(arr))
-        return
-    for i in range(idx, c):
-        if check[i] == 0:
-            arr.append(s[i])
-            check[i] = 1
-            dfs(len + 1, i + 1)
-            check[i] = 0
-            del arr[-1]
-l, c = map(int, input().split())
-check = [0 for i in range(c)]
-arr = []
-s = input().split()
-s.sort()
-dfs(0, 0)
+from collections import deque
+
+def bfs(v):
+    global cnt
+
+    q = deque([])
+    q.append(v)
+    visited[v] = 1
+
+    while q:
+        v = q.popleft()
+        cnt += 1
+
+        for i in matrix[v]:
+            if visited[i] == 0:
+                visited[i] = 1
+                q.append(i)
+
+n = int(input())
+m = int(input())
+matrix = [[] for _ in range(n+1)]
+visited = [0]*(n+1)
+cnt = 0
+
+for _ in range(m):
+    a, b = map(int, input().split())
+    matrix[a].append(b)
+    matrix[b].append(a)
+
+bfs(1)
+print(cnt-1)

@@ -1,24 +1,14 @@
-n = 5
-number = 12
+def solution(numbers, target):
+    result = 0
 
-def solution(N, number):
-    answer = -1
-    dp = []
+    def dfs(i, res):
+        nonlocal result
+        if i == len(numbers):
+            if res == target:
+                result += 1
+            return
+        else:
+            dfs(i+1, res+numbers[i])
+            dfs(i+1, res-numbers[i])
 
-    for i in range(1, 9):
-        numbers = set()
-        numbers.add(int(str(N)*i))
-
-        for j in range(0, i-1):
-            for x in dp[j]:
-                for y in dp[-j-1]:
-                    numbers.add(x+y)
-                    numbers.add(x-y)
-                    numbers.add(x*y)
-
-                    if y != 0:
-                        numbers.add(x // y)
-
-        if number in numbers:
-            answer = i
-            break
+    dfs(0, 0)
