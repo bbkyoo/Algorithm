@@ -768,6 +768,9 @@
     <Compile Include="백트래킹\N과M_12.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="백트래킹\계란으로 계란치기.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="백트래킹\로또.py">
       <SubType>Code</SubType>
     </Compile>
@@ -778,6 +781,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\암호만들기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\에너지 모으기%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\연산자_끼워넣기.py">
@@ -804,6 +810,9 @@
     <Compile Include="BFS\탈출%28중요함%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="백트래킹\외판원 순회2%28다시%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="브루트포스\부등호%28백트래킹%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -820,6 +829,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="수학3\다리놓기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="수학3\어린 왕자.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="수학3\최소공배수.py">

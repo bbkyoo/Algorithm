@@ -23,14 +23,5 @@ def solution(N, number):
             break
 
         dp.append(numbers)
-    print(dp)
+    
     return answer
-
-solution(5, 12)
-
-
-
-
-
-
-
