@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>practice.py</StartupFile>
+    <StartupFile>그리디알고리즘\Gold\자리전쟁(못품).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>BackJoon</Name>
     <RootNamespace>BackJoon</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -600,6 +601,9 @@
     <Compile Include="그리디알고리즘\Gold\아우으 우아으이야.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="그리디알고리즘\Gold\자리전쟁%28못품%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="그리디알고리즘\Gold\지뢰찾기%28못품%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -616,6 +620,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그리디알고리즘\박떠트리기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\보물.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그리디알고리즘\보석 도둑%28중요%29.py">
@@ -1653,6 +1660,17 @@
     <Folder Include="큐와덱\" />
     <Folder Include="스택\" />
     <Folder Include="동적계획법1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.7</Version>
+      <Description>env (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

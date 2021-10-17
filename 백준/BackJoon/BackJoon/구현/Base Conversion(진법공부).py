@@ -3,7 +3,7 @@ m = int(input())
 nums = list(map(int, input().split()))
 
 ten = 0
-answer =[]
+answer = []
 
 # 이런 어떤 진법을 10진법으로 변환하는 것을 잘 알아두기
 # 그냥 맨 아래부터 제곱으로 더하기

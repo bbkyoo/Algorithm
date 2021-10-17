@@ -48,26 +48,3 @@ for i in q:
         result += i
 
 print(result)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,13 +1,21 @@
-t = int(input())
+def solution(n, costs):
+    costs.sort(key=lambda x:x[2])
+    routes = set([costs[0][0],costs[0][1]])
+    answer = costs[0][2]
 
-for _ in range(t):
-    x1, y1, x2, y2 = map(int, input().split())
-    n = int(input())
-    cnt = 0
-    for _ in range(n):
-        cx, cy, r = map(int, input().split())
-        d1 = (((x1-cx)**2) + ((y1-cy)**2))**0.5
-        d2 = (((x2-cx)**2) + ((y2-cy)**2))**0.5
-        if (d1 < r and d2 > r) or (d1 > r and d2 < r):
-            cnt += 1
-    print(cnt)
+    while n != len(routes):
+        for i, v in enumerate(costs[1:]):
+            if v[0] in routes and v[1] in routes:
+                continue
+
+            if v[0] in routes or v[1] in routes:
+                routes.update([v[0], v[1]])
+                answer += v[2]
+                costs[i+1] = [-1, -1, -1]
+                break
+
+    return answer
+
+n = 4
+costs = [[0,1,1],[0,2,2],[1,2,5],[1,3,1],[2,3,8]]
+print(solution(n, costs))

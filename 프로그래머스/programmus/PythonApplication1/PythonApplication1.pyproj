@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2223a9be-5315-44e9-b80e-43e5476c6658</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pt.py</StartupFile>
+    <StartupFile>Level4\징검다리.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PythonApplication1</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,6 +27,7 @@
     <Folder Include="2017팁스다운\" />
     <Folder Include="2019카카오개발자겨울인턴쉽\" />
     <Folder Include="Level3\" />
+    <Folder Include="Level4\" />
     <Folder Include="위클리 챌린지\" />
   </ItemGroup>
   <ItemGroup>
@@ -476,6 +478,9 @@
     <Compile Include="Level3\하노이 탑.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Level4\징검다리.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="practice.py">
       <SubType>Code</SubType>
     </Compile>
@@ -491,6 +496,17 @@
     <Compile Include="위클리 챌린지\퍼즐 조각 채우기.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.7</Version>
+      <Description>env (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

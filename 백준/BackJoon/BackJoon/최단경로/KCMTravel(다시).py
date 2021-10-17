@@ -34,9 +34,3 @@ for _ in range(T):
         print('Poor KCM')
     else:
         print(result)
-
-
-
-
-
-
