@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그리디알고리즘\Gold\자리전쟁(못품).py</StartupFile>
+    <StartupFile>구현\창고 다각형(중요).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -341,6 +341,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\참외밭.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\창고 다각형%28중요%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\카드게임.py">
@@ -775,7 +778,7 @@
     <Compile Include="백트래킹\N과M_12.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="백트래킹\계란으로 계란치기.py">
+    <Compile Include="백트래킹\계란으로 계란치기%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\로또.py">

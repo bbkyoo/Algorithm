@@ -1,21 +1,17 @@
-def solution(n, costs):
-    costs.sort(key=lambda x:x[2])
-    routes = set([costs[0][0],costs[0][1]])
-    answer = costs[0][2]
+n = int(input())
+arr = list(map(int, input().split()))
+maxV = 0
 
-    while n != len(routes):
-        for i, v in enumerate(costs[1:]):
-            if v[0] in routes and v[1] in routes:
-                continue
+def dfs(depth):
+    if len(arr) == 2:
+        if depth > maxV:
+            maxV = depth
+        return
 
-            if v[0] in routes or v[1] in routes:
-                routes.update([v[0], v[1]])
-                answer += v[2]
-                costs[i+1] = [-1, -1, -1]
-                break
+    for i in range(1, len(arr)-1):
+        r = arr[i-1] * arr[i+1]
+        temp = arr[i]
+        del arr[i]
+        dfs(depth+r)
+        arr.insert(i, temp)
 
-    return answer
-
-n = 4
-costs = [[0,1,1],[0,2,2],[1,2,5],[1,3,1],[2,3,8]]
-print(solution(n, costs))

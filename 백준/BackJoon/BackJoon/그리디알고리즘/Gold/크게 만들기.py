@@ -30,7 +30,7 @@ for i in range(n):
     t.append(s[i])
 
 print(''.join(t[:n-k]))
-
+print(t)
 
 
 
