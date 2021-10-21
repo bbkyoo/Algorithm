@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>그리디알고리즘\Gold\멀티탭 스케줄링(중요 다시).py</StartupFile>
+    <StartupFile>practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -566,9 +566,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\피자오븐.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="그래프\해킹.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\현수막.py">
