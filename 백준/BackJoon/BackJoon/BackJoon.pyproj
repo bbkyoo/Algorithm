@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>69513c70-cc7b-4758-acfb-9c45af99133d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>구현\창고 다각형(중요).py</StartupFile>
+    <StartupFile>그리디알고리즘\Gold\멀티탭 스케줄링(중요 다시).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -244,6 +244,9 @@
     <Compile Include="구현\빈도정렬.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="구현\빗물%28중요%29.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="구현\빙고%28외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
@@ -293,6 +296,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\십자카드문제.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="구현\압축%28중요 외우기%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="구현\에라토스테네스의 체%28다시%29.py">
@@ -587,6 +593,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그리디알고리즘\Gold\ppap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="그리디알고리즘\Gold\멀티탭 스케줄링%28중요 다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그리디알고리즘\Gold\모독%28문제이해%29.py">
