@@ -466,7 +466,7 @@
     <Compile Include="그래프\미친로봇.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="그래프\백양로 브레이크.py">
+    <Compile Include="그래프\백양로 브레이크%28중요%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="그래프\벽 부수고 이동하기2%28시간초과%29.py">
@@ -784,16 +784,28 @@
     <Compile Include="백트래킹\N과M_12.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="백트래킹\감소하는 수.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="백트래킹\계란으로 계란치기%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="백트래킹\두 동전.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="백트래킹\로또.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\반복되지 않는 단어.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\스도쿠%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\스타트와링크.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백트래킹\신기한 소수.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="백트래킹\암호만들기.py">
@@ -908,6 +920,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="시뮬레이션\후보추천하기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="위상정렬\줄 세우기%28다시%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="이분탐색\이분탐색 기초.py">
@@ -1634,6 +1649,7 @@
     <Folder Include="KOI1996\초등부\" />
     <Folder Include="KOI1997\" />
     <Folder Include="KOI1997\초등부\" />
+    <Folder Include="위상정렬\" />
     <Folder Include="최소 신장 트리\" />
     <Folder Include="백준 문제집\" />
     <Folder Include="그래프\" />

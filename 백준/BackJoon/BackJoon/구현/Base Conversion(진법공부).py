@@ -19,4 +19,3 @@ while ten != 0:
 answer.reverse()
 
 print(" ".join(answer))
-
