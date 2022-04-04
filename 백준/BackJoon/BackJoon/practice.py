@@ -1,16 +1,15 @@
-n, l = map(int, input().split())
-t = 0
-pre = 0
+n, k = map(int, input().split())
+arr = list(map(int, input().split()))
+if n >= k:
+    print(0)
+    exit()
 
-for _ in range(n):
-    d, r, g = map(int, input().split())
-    
-    t += d - pre
-    pre = d
+a = []
+for i in range(n):
+    a.append(arr.pop(0))
 
-    red = t % (r+g)
-    
-    if red <= r:
-        t += r - red
-    
-print(t+(l-pre))
+for i in arr:
+    if i not in a:
+        a.pop()
+        a.append(i)
+
