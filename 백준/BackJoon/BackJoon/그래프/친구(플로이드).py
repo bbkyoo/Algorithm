@@ -11,7 +11,6 @@ for k in range(n):
                     visited[i][j] = 1
 
 result = 0
-
 for i in range(n):
     cnt = 0
     for j in range(n):

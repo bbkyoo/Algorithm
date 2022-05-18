@@ -7,7 +7,6 @@ for _ in range(N):
     
 dic = {}
 
-
 for i in s:
     k = len(i)-1
     for j in i:

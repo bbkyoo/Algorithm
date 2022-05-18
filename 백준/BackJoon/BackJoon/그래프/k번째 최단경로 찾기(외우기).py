@@ -14,7 +14,7 @@ def dijkstra(start):
             n_w = wei + w
             if n_w < dp[n_n][k-1]:
                 dp[n_n][k-1] = n_w
-                dp[n_n].sort()                
+                dp[n_n].sort()
                 heapq.heappush(heap, (n_w, n_n))
 
 n, m, k = map(int, input().split())

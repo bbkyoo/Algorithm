@@ -38,7 +38,6 @@ for _ in range(k):
         matrix[b].append(a)
 
     ans = 0
-
     for i in range(1, v+1):
         if color[i] == 0:
             ans = bfs(i)

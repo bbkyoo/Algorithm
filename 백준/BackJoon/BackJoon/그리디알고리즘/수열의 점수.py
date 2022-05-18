@@ -2,7 +2,7 @@ n = int(input())
 
 positive_nums = []
 negative_nums = []
-one = [] # 이 걸로 1을 굳이 빼는 이유는 1일 여러개 일 수도 있어서 이다.
+one = [] # 이 걸로 1을 굳이 빼는 이유는 1이 여러개 일 수도 있어서 이다.
 for _ in range(n):
     num = int(input())
     if num > 1:

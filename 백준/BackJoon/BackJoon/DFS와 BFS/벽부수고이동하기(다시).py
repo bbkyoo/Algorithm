@@ -39,3 +39,63 @@ for i in range(n):
     s.append(list(map(int, list(input().strip()))))
 
 print(bfs())
+
+
+
+
+# 아래의 백트래킹으로 풀면 시간초과가 나타난다.
+
+# import sys
+# from collections import deque
+# sys.setrecursionlimit(10 ** 6)
+#
+# dx = [-1,1,0,0]
+# dy = [0,0,-1,1]
+#
+# def bfs():
+#     q = deque([])
+#     q.append([0,0])
+#     visited = [[0]*m for _ in range(n)]
+#     visited[0][0] = 1
+#     copy = matrix.copy()
+#
+#     while q:
+#         x, y = q.popleft()
+#
+#         for i in range(4):
+#             nx = x + dx[i]
+#             ny = y + dy[i]
+#
+#             if 0 <= nx < n and 0 <= ny < m:
+#                 if visited[nx][ny] == 0 and copy[nx][ny] == 0:
+#                     q.append([nx, ny])
+#                     visited[nx][ny] = 1
+#                     copy[nx][ny] = copy[x][y] + 1
+#
+#     return copy[n-1][m-1]
+#
+# def wallbreak(cnt):
+#     global res
+#
+#     if cnt == 1:
+#         res = max(res, bfs())
+#
+#     for i in range(n):
+#         for j in range(m):
+#             if matrix[i][j] == 1:
+#                 matrix[i][j] = 0
+#                 wallbreak(cnt+1)
+#                 matrix[i][j] = 0
+#
+# n ,m = map(int ,input().split())
+#
+# matrix = []
+# for i in range(n):
+#     matrix.append(list(map(int, list(input().strip()))))
+#
+# res = bfs()
+# wallbreak(0)
+# if res == 0:
+#     print(-1)
+# else:
+#     print(res+1)

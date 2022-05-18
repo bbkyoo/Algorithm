@@ -1,7 +1,7 @@
 n = int(input())
 s = [0]*n
 w = [0]*n
-for _ in range(n):
+for i in range(n):
     s[i], w[i] = map(int, input().split())
     
 res = 0
@@ -20,7 +20,7 @@ def solve(depth, eggs):
             flag = False
             if eggs[i] > 0 and i != depth:
                 flag = True
-                tmp = egg.copy()
+                tmp = eggs.copy()
                 tmp[i] -= w[depth]
                 tmp[depth] -= w[i]
                 solve(depth+1, tmp)

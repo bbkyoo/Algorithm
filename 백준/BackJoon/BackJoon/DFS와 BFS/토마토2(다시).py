@@ -20,7 +20,7 @@ def bfs():
                     a[nx][ny][nz] = 1
                     c[nx][ny][nz] = c[x][y][z] + 1
                     
-m, n , h = map(int, input().split())
+m, n, h = map(int, input().split())
 
 a = [[list(map(int, input().split())) for _ in range(n)] for _ in range(h)]
 c = [[[0]*m for _ in range(n)] for _ in range(h)] 

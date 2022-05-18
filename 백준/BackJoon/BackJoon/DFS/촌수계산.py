@@ -13,7 +13,7 @@ def dfs(v):
     return 
 
 n = int(input())
-a, b = map(int ,input().split())
+a, b = map(int, input().split())
 m = int(input())
 matrix = [[] for _ in range(n+1)]
 visited = [0] * (n+1)

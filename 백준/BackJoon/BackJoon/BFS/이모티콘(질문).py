@@ -14,7 +14,7 @@ def bfs():
     ch[1][0] = 0    
 
     while q:
-        x, y= q.popleft()
+        x, y = q.popleft()
 
         if ch[x][x] == -1:  #1번 연산
             ch[x][x] = ch[x][y] + 1

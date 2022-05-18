@@ -12,6 +12,10 @@ dy = [0,0,-1,1]
 def bfs(x, y):
     q = deque()
     q.append([x, y])
+
+    visited = [[0] * m for _ in range(n)]
+    dist = [[0] * m for _ in range(n)]
+
     visited[x][y] = 1
     dist[x][y] = 1
 
@@ -39,9 +43,6 @@ for _ in range(n):
 result = 0
 for i in range(n):
     for j in range(m):
-        visited = [[0]*m for _ in range(n)]
-        dist = [[0]*m for _ in range(n)]
-
         if mp[i][j] == 'L':
             result = max(result, bfs(i, j))
             

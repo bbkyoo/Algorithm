@@ -11,7 +11,6 @@ def bfs(v):
         
         for i in friend[v]:
             if visited[i] == 0:
-                visited[i] = 1
                 q.append(i)
                 visited[i] = visited[v] + 1
 
